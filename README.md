@@ -293,6 +293,23 @@ The detailed project documentation is available in the **reports** folder.
 
 ---
 
+## 🎥 Project Demonstration
+
+📺 **Watch the Dashboard Demo:** https://drive.google.com/file/d/187PxxzsryQAecPhqRxMlzTQ5XkAubcDW/view?usp=drive_link
+
+The video demonstrates:
+
+- Executive Summary Dashboard
+- Route Performance Dashboard
+- Operations Analysis Dashboard
+- Interactive Slicers
+- Drill Down & Drill Through
+- Map Visualization
+- Dynamic KPI Cards
+- Cross Filtering
+
+---
+
 # 👨‍💻 Author
 
 **Abdullah Javed**

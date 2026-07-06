@@ -1,0 +1,621 @@
+Trip_ID,Route_ID,Route_Name,Operator_Name,Bus_Number,Bus_Type,Departure_City,Arrival_City,Date,Day_Type,Departure_Time,Arrival_Time,Scheduled_Duration_Minutes,Actual_Duration_Minutes,Delay_Minutes,Passenger_Count,Bus_Capacity,Occupancy_Rate (%),Ticket_Fare_PKR,Ticket_Revenue_PKR,Fuel_Consumption_Liters,Driver_ID,Weather_Condition,Traffic_Level,Trip_Status,Departure_Hour,Arrival_Hour
+TRP-00001,RT-001,Karachi to Faisalabad,Punjab Transit,QTA-9935,Mini Bus,Karachi,Faisalabad,2025-02-14,Weekday,22:30,,1136,0,0,0,26,0.0,1145,0,0.0,DRV-0051,Sunny,Moderate,Cancelled,22,
+TRP-00002,RT-002,Hyderabad to Peshawar,Capital Bus Service,LEA-3615,Mini Bus,Hyderabad,Peshawar,2025-12-24,Weekday,17:25,17:20,1380,1435,55,18,28,64.29,1800,32400,321.7,DRV-0012,Dust Storm,Low,Delayed,17,17.0
+TRP-00003,RT-003,Lahore to Hyderabad,Blue Line Transit,ISB-6925,Standard,Lahore,Hyderabad,2025-10-23,Weekday,10:55,08:44,1266,1309,43,24,42,57.14,1325,31800,310.2,DRV-0094,Rainy,High,Completed,10,8.0
+TRP-00004,RT-004,Quetta to Multan,Capital Bus Service,QTA-2169,Mini Bus,Quetta,Multan,2025-11-08,Weekend,09:40,19:49,592,609,17,15,27,55.56,615,9225,92.2,DRV-0015,Sunny,Low,Completed,9,19.0
+TRP-00005,RT-005,Hyderabad to Karachi,Blue Line Transit,KHI-6155,Standard,Hyderabad,Karachi,2025-04-19,Weekend,19:30,23:02,195,212,17,30,49,61.22,250,7500,48.5,DRV-0150,Sunny,Low,Completed,19,23.0
+TRP-00006,RT-006,Lahore to Multan,Punjab Transit,LEA-1771,AC,Lahore,Multan,2025-02-26,Weekday,08:50,16:03,408,433,25,25,53,47.17,435,10875,98.5,DRV-0142,Cloudy,Moderate,Completed,8,16.0
+TRP-00007,RT-007,Lahore to Karachi,Capital Bus Service,ISB-2827,Mini Bus,Lahore,Karachi,2025-05-31,Weekend,17:10,13:59,1192,1249,57,26,29,89.66,1440,37440,241.3,DRV-0051,Dust Storm,High,Completed,17,13.0
+TRP-00008,RT-008,Rawalpindi to Islamabad,City Metro Bus,PES-1319,Electric,Rawalpindi,Islamabad,2025-02-27,Weekday,15:20,16:52,54,92,38,17,41,41.46,80,1360,0.9,DRV-0122,Sunny,Moderate,Delayed,15,16.0
+TRP-00009,RT-009,Faisalabad to Islamabad,Blue Line Transit,MUL-4295,Hybrid,Faisalabad,Islamabad,2025-06-09,Weekday,16:50,22:53,338,363,25,32,49,65.31,375,12000,61.5,DRV-0059,Foggy,Moderate,Completed,16,22.0
+TRP-00010,RT-007,Lahore to Karachi,City Metro Bus,LEA-6413,Standard,Lahore,Karachi,2025-02-06,Weekday,20:15,17:11,1238,1256,18,32,50,64.0,1340,42880,341.5,DRV-0063,Sunny,Low,Completed,20,17.0
+TRP-00011,RT-010,Peshawar to Rawalpindi,Blue Line Transit,PES-8651,AC,Peshawar,Rawalpindi,2025-01-28,Weekday,07:00,11:28,227,268,41,21,50,42.0,235,4935,57.3,DRV-0047,Rainy,Low,Completed,7,11.0
+TRP-00012,RT-006,Lahore to Multan,Green Line Express,SGD-2604,AC,Lahore,Multan,2025-01-26,Weekend,21:00,02:57,342,357,15,23,47,48.94,400,9200,105.9,DRV-0100,Sunny,Moderate,Completed,21,2.0
+TRP-00013,RT-011,Rawalpindi to Peshawar,National Express PK,ISB-4566,Standard,Rawalpindi,Peshawar,2025-01-30,Weekday,22:55,02:55,219,240,21,17,45,37.78,240,4080,48.3,DRV-0131,Sunny,Moderate,Completed,22,2.0
+TRP-00014,RT-012,Islamabad to Rawalpindi,Green Line Express,KHI-7615,Electric,Islamabad,Rawalpindi,2025-03-03,Weekday,22:15,23:20,48,65,17,27,59,45.76,85,2295,0.9,DRV-0081,Sunny,Moderate,Completed,22,23.0
+TRP-00015,RT-013,Lahore to Sialkot,Capital Bus Service,SGD-2188,AC,Lahore,Sialkot,2025-01-05,Weekend,18:45,21:24,144,159,15,38,43,88.37,195,7410,41.9,DRV-0041,Sunny,Moderate,Completed,18,21.0
+TRP-00016,RT-014,Multan to Faisalabad,City Metro Bus,MUL-5905,Electric,Multan,Faisalabad,2025-12-06,Weekend,07:10,12:53,305,343,38,29,43,67.44,275,7975,13.9,DRV-0068,Rainy,Low,Completed,7,12.0
+TRP-00017,RT-015,Islamabad to Peshawar,City Metro Bus,PES-5533,Standard,Islamabad,Peshawar,2025-01-23,Weekday,04:25,08:30,225,245,20,17,43,39.53,245,4165,47.5,DRV-0177,Sunny,Moderate,Completed,4,8.0
+TRP-00018,RT-016,Karachi to Hyderabad,Punjab Transit,LEA-6050,AC,Karachi,Hyderabad,2025-07-06,Weekend,05:25,09:42,232,257,25,43,47,91.49,255,10965,60.3,DRV-0061,Cloudy,Moderate,Completed,5,9.0
+TRP-00019,RT-015,Islamabad to Peshawar,Sindh Rapid Transit,PES-5065,Mini Bus,Islamabad,Peshawar,2025-05-17,Weekend,09:55,14:58,268,303,35,17,25,68.0,270,4590,32.5,DRV-0059,Rainy,Low,Completed,9,14.0
+TRP-00020,RT-017,Islamabad to Faisalabad,Sindh Rapid Transit,LEA-5573,Standard,Islamabad,Faisalabad,2025-06-29,Weekend,20:30,02:39,336,369,33,41,45,91.11,370,15170,94.5,DRV-0028,Foggy,Low,Completed,20,2.0
+TRP-00021,RT-018,Multan to Sialkot,Green Line Express,MUL-4114,AC,Multan,Sialkot,2025-05-11,Weekend,05:55,15:09,518,554,36,30,56,53.57,545,16350,137.0,DRV-0085,Foggy,Moderate,Completed,5,15.0
+TRP-00022,RT-019,Faisalabad to Lahore,Blue Line Transit,QTA-5844,AC,Faisalabad,Lahore,2025-10-11,Weekend,08:15,11:39,173,204,31,35,52,67.31,200,7000,37.8,DRV-0074,Cloudy,High,Completed,8,11.0
+TRP-00023,RT-007,Lahore to Karachi,Sindh Rapid Transit,PES-4501,AC,Lahore,Karachi,2025-09-19,Weekday,19:55,17:23,1269,1288,19,29,42,69.05,1425,41325,373.5,DRV-0058,Sunny,High,Completed,19,17.0
+TRP-00024,RT-020,Islamabad to Karachi,National Express PK,SGD-2193,Electric,Islamabad,Karachi,2025-08-22,Weekday,17:50,16:27,1353,1357,4,38,52,73.08,1590,60420,82.7,DRV-0057,Sunny,Moderate,Completed,17,16.0
+TRP-00025,RT-021,Islamabad to Sialkot,City Metro Bus,SGD-2988,AC,Islamabad,Sialkot,2025-08-22,Weekday,08:35,14:26,306,351,45,32,57,56.14,325,10400,81.3,DRV-0141,Cloudy,High,Completed,8,14.0
+TRP-00026,RT-008,Rawalpindi to Islamabad,National Express PK,SGD-5050,AC,Rawalpindi,Islamabad,2025-11-23,Weekend,12:40,13:56,62,76,14,31,60,51.67,80,2480,5.5,DRV-0139,Sunny,Moderate,Completed,12,13.0
+TRP-00027,RT-012,Islamabad to Rawalpindi,Punjab Transit,LEA-7797,Mini Bus,Islamabad,Rawalpindi,2025-07-28,Weekday,14:40,16:09,61,89,28,27,31,87.1,85,2295,3.1,DRV-0098,Sunny,High,Completed,14,16.0
+TRP-00028,RT-004,Quetta to Multan,Blue Line Transit,SGD-7865,Mini Bus,Quetta,Multan,2025-10-03,Weekday,21:45,,571,0,0,0,32,0.0,695,0,0.0,DRV-0087,Sunny,Moderate,Cancelled,21,
+TRP-00029,RT-015,Islamabad to Peshawar,Punjab Transit,MUL-1441,Hybrid,Islamabad,Peshawar,2025-07-21,Weekday,22:45,02:37,231,232,1,18,37,48.65,265,4770,41.8,DRV-0084,Cloudy,Low,Completed,22,2.0
+TRP-00030,RT-004,Quetta to Multan,Blue Line Transit,SGD-7906,Standard,Quetta,Multan,2025-05-10,Weekend,06:35,18:47,696,732,36,33,36,91.67,610,20130,148.8,DRV-0052,Dust Storm,Low,Completed,6,18.0
+TRP-00031,RT-022,Sialkot to Islamabad,National Express PK,MUL-4571,Electric,Sialkot,Islamabad,2025-08-27,Weekday,12:25,18:47,349,382,33,38,59,64.41,300,11400,14.4,DRV-0080,Dust Storm,Moderate,Completed,12,18.0
+TRP-00032,RT-023,Sialkot to Peshawar,Pak Urban Transport,QTA-4978,Standard,Sialkot,Peshawar,2025-02-22,Weekend,13:50,23:14,499,564,65,27,38,71.05,540,14580,124.7,DRV-0108,Rainy,Moderate,Delayed,13,23.0
+TRP-00033,RT-024,Peshawar to Lahore,National Express PK,PES-3885,Mini Bus,Peshawar,Lahore,2025-09-25,Weekday,12:45,22:19,530,574,44,26,33,78.79,630,16380,90.8,DRV-0023,Rainy,Moderate,Completed,12,22.0
+TRP-00034,RT-011,Rawalpindi to Peshawar,National Express PK,QTA-7209,AC,Rawalpindi,Peshawar,2025-06-22,Weekend,04:35,08:06,203,211,8,43,45,95.56,235,10105,56.3,DRV-0071,Sunny,Low,Completed,4,8.0
+TRP-00035,RT-025,Hyderabad to Rawalpindi,Blue Line Transit,SGD-4937,AC,Hyderabad,Rawalpindi,2025-12-20,Weekend,19:50,18:31,1335,1361,26,43,54,79.63,1480,63640,503.6,DRV-0142,Rainy,Low,Completed,19,18.0
+TRP-00036,RT-026,Sialkot to Lahore,Sindh Rapid Transit,PES-5438,AC,Sialkot,Lahore,2025-06-06,Weekday,12:15,15:36,180,201,21,21,46,45.65,180,3780,45.9,DRV-0124,Sunny,High,Completed,12,15.0
+TRP-00037,RT-007,Lahore to Karachi,Capital Bus Service,SGD-4180,Hybrid,Lahore,Karachi,2025-06-01,Weekend,11:25,08:56,1266,1291,25,27,35,77.14,1395,37665,229.8,DRV-0126,Cloudy,Low,Delayed,11,8.0
+TRP-00038,RT-005,Hyderabad to Karachi,National Express PK,ISB-4020,AC,Hyderabad,Karachi,2025-01-27,Weekday,12:35,16:35,239,240,1,18,42,42.86,220,3960,58.3,DRV-0145,Sunny,Low,Completed,12,16.0
+TRP-00039,RT-027,Lahore to Rawalpindi,Blue Line Transit,SGD-4697,Electric,Lahore,Rawalpindi,2025-09-25,Weekday,16:35,23:50,376,435,59,41,49,83.67,470,19270,24.0,DRV-0026,Foggy,High,Completed,16,23.0
+TRP-00040,RT-028,Rawalpindi to Sialkot,Green Line Express,KHI-2229,Standard,Rawalpindi,Sialkot,2025-03-22,Weekend,04:30,09:47,303,317,14,24,50,48.0,320,7680,59.2,DRV-0068,Sunny,Low,Completed,4,9.0
+TRP-00041,RT-029,Sialkot to Rawalpindi,Pak Urban Transport,ISB-3330,Electric,Sialkot,Rawalpindi,2025-02-06,Weekday,05:10,10:22,278,312,34,41,59,69.49,300,12300,12.8,DRV-0070,Rainy,Moderate,Completed,5,10.0
+TRP-00042,RT-011,Rawalpindi to Peshawar,City Metro Bus,QTA-6280,Hybrid,Rawalpindi,Peshawar,2025-11-06,Weekday,12:00,16:53,248,293,45,20,35,57.14,255,5100,35.9,DRV-0167,Dust Storm,Moderate,Completed,12,16.0
+TRP-00043,RT-030,Peshawar to Islamabad,Blue Line Transit,PES-2494,Electric,Peshawar,Islamabad,2025-08-29,Weekday,15:30,20:22,252,292,40,35,43,81.4,250,8750,10.2,DRV-0141,Rainy,Low,Completed,15,20.0
+TRP-00044,RT-031,Lahore to Faisalabad,Sindh Rapid Transit,SGD-7622,Standard,Lahore,Faisalabad,2025-09-21,Weekend,04:50,07:39,154,169,15,41,49,83.67,195,7995,35.7,DRV-0053,Sunny,Low,Completed,4,7.0
+TRP-00045,RT-008,Rawalpindi to Islamabad,National Express PK,PES-2989,Hybrid,Rawalpindi,Islamabad,2025-01-15,Weekday,11:55,13:18,52,83,31,30,44,68.18,85,2550,3.2,DRV-0040,Cloudy,Moderate,Delayed,11,13.0
+TRP-00046,RT-022,Sialkot to Islamabad,Capital Bus Service,PES-8736,AC,Sialkot,Islamabad,2025-05-05,Weekday,18:40,01:01,352,381,29,24,46,52.17,340,8160,79.8,DRV-0130,Foggy,Moderate,Completed,18,1.0
+TRP-00047,RT-016,Karachi to Hyderabad,Capital Bus Service,MUL-9022,Mini Bus,Karachi,Hyderabad,2025-03-18,Weekday,18:40,22:32,216,232,16,25,30,83.33,225,5625,32.0,DRV-0062,Cloudy,Moderate,Completed,18,22.0
+TRP-00048,RT-011,Rawalpindi to Peshawar,National Express PK,SGD-7246,Mini Bus,Rawalpindi,Peshawar,2025-07-17,Weekday,08:35,12:10,197,215,18,17,27,62.96,255,4335,31.8,DRV-0117,Cloudy,Moderate,Completed,8,12.0
+TRP-00049,RT-012,Islamabad to Rawalpindi,Punjab Transit,SGD-5342,Standard,Islamabad,Rawalpindi,2025-06-23,Weekday,16:50,18:44,49,114,65,36,45,80.0,85,3060,4.3,DRV-0018,Rainy,High,Completed,16,18.0
+TRP-00050,RT-009,Faisalabad to Islamabad,Pak Urban Transport,PES-2612,Mini Bus,Faisalabad,Islamabad,2025-11-21,Weekday,07:35,14:23,378,408,30,16,29,55.17,395,6320,57.1,DRV-0038,Foggy,Low,Completed,7,14.0
+TRP-00051,RT-026,Sialkot to Lahore,Punjab Transit,LEA-7267,Standard,Sialkot,Lahore,2025-11-14,Weekday,11:35,14:26,147,171,24,31,39,79.49,180,5580,32.4,DRV-0174,Sunny,High,Completed,11,14.0
+TRP-00052,RT-031,Lahore to Faisalabad,Sindh Rapid Transit,ISB-7951,Hybrid,Lahore,Faisalabad,2025-12-20,Weekend,12:35,16:40,155,245,90,39,41,95.12,185,7215,27.5,DRV-0169,Dust Storm,High,Delayed,12,16.0
+TRP-00053,RT-005,Hyderabad to Karachi,City Metro Bus,QTA-9138,Hybrid,Hyderabad,Karachi,2025-05-27,Weekday,11:45,15:38,199,233,34,17,42,40.48,230,3910,33.9,DRV-0161,Cloudy,High,Completed,11,15.0
+TRP-00054,RT-032,Faisalabad to Quetta,Sindh Rapid Transit,LEA-5835,Mini Bus,Faisalabad,Quetta,2025-06-17,Weekday,17:10,08:37,904,927,23,16,33,48.48,920,14720,131.6,DRV-0124,Foggy,Low,Completed,17,8.0
+TRP-00055,RT-014,Multan to Faisalabad,National Express PK,KHI-4696,Hybrid,Multan,Faisalabad,2025-12-13,Weekend,16:40,21:57,297,317,20,32,47,68.09,290,9280,47.9,DRV-0096,Sunny,Moderate,Completed,16,21.0
+TRP-00056,RT-033,Multan to Lahore,Sindh Rapid Transit,KHI-2035,Hybrid,Multan,Lahore,2025-11-22,Weekend,18:55,02:03,395,428,33,28,48,58.33,405,11340,62.5,DRV-0035,Sunny,Low,Delayed,18,2.0
+TRP-00057,RT-034,Multan to Quetta,Blue Line Transit,QTA-3531,Electric,Multan,Quetta,2025-08-01,Weekday,07:35,17:48,606,613,7,37,48,77.08,630,23310,31.6,DRV-0026,Sunny,Low,Completed,7,17.0
+TRP-00058,RT-035,Hyderabad to Multan,Sindh Rapid Transit,ISB-4109,Standard,Hyderabad,Multan,2025-03-04,Weekday,18:05,07:47,804,822,18,16,35,45.71,910,14560,231.4,DRV-0142,Sunny,Low,Completed,18,7.0
+TRP-00059,RT-006,Lahore to Multan,Pak Urban Transport,KHI-1046,AC,Lahore,Multan,2025-05-22,Weekday,08:10,15:17,374,427,53,16,45,35.56,430,6880,121.6,DRV-0068,Sunny,High,Delayed,8,15.0
+TRP-00060,RT-022,Sialkot to Islamabad,Green Line Express,PES-8344,Mini Bus,Sialkot,Islamabad,2025-07-05,Weekend,20:45,03:03,355,378,23,26,33,78.79,340,8840,41.7,DRV-0016,Sunny,Moderate,Completed,20,3.0
+TRP-00061,RT-023,Sialkot to Peshawar,National Express PK,PES-2204,Mini Bus,Sialkot,Peshawar,2025-02-11,Weekday,14:45,00:18,554,573,19,23,27,85.19,585,13455,85.7,DRV-0136,Sunny,Moderate,Completed,14,0.0
+TRP-00062,RT-014,Multan to Faisalabad,Green Line Express,LEA-4522,Mini Bus,Multan,Faisalabad,2025-08-09,Weekend,18:15,23:25,293,310,17,20,32,62.5,310,6200,44.5,DRV-0122,Sunny,Moderate,Completed,18,23.0
+TRP-00063,RT-031,Lahore to Faisalabad,Green Line Express,ISB-3131,Mini Bus,Lahore,Faisalabad,2025-10-12,Weekend,05:45,08:29,151,164,13,31,33,93.94,195,6045,21.7,DRV-0074,Sunny,Low,Completed,5,8.0
+TRP-00064,RT-006,Lahore to Multan,Pak Urban Transport,PES-4674,Standard,Lahore,Multan,2025-02-25,Weekday,15:40,22:57,389,437,48,30,43,69.77,405,12150,95.8,DRV-0143,Cloudy,High,Completed,15,22.0
+TRP-00065,RT-009,Faisalabad to Islamabad,Capital Bus Service,ISB-6062,Standard,Faisalabad,Islamabad,2025-06-23,Weekday,15:00,21:39,376,399,23,15,39,38.46,415,6225,98.4,DRV-0136,Cloudy,Moderate,Completed,15,21.0
+TRP-00066,RT-013,Lahore to Sialkot,Punjab Transit,QTA-6314,AC,Lahore,Sialkot,2025-10-18,Weekend,06:00,09:12,179,192,13,42,59,71.19,180,7560,41.1,DRV-0070,Sunny,Low,Completed,6,9.0
+TRP-00067,RT-036,Faisalabad to Multan,Blue Line Transit,QTA-8972,Standard,Faisalabad,Multan,2025-09-27,Weekend,13:00,18:13,309,313,4,30,36,83.33,290,8700,58.9,DRV-0031,Sunny,Low,Completed,13,18.0
+TRP-00068,RT-022,Sialkot to Islamabad,Punjab Transit,QTA-4770,AC,Sialkot,Islamabad,2025-09-14,Weekend,21:50,03:03,295,313,18,39,42,92.86,300,11700,77.2,DRV-0147,Sunny,Moderate,Completed,21,3.0
+TRP-00069,RT-017,Islamabad to Faisalabad,Green Line Express,ISB-3815,AC,Islamabad,Faisalabad,2025-11-13,Weekday,18:55,00:27,320,332,12,26,42,61.9,425,11050,98.9,DRV-0102,Sunny,Low,Completed,18,0.0
+TRP-00070,RT-037,Multan to Rawalpindi,Punjab Transit,QTA-2868,Standard,Multan,Rawalpindi,2025-09-29,Weekday,20:15,06:27,591,612,21,18,46,39.13,675,12150,174.7,DRV-0066,Sunny,High,Completed,20,6.0
+TRP-00071,RT-038,Karachi to Lahore,Green Line Express,SGD-9095,Standard,Karachi,Lahore,2025-08-26,Weekday,22:45,19:29,1193,1244,51,30,45,66.67,1310,39300,387.2,DRV-0071,Foggy,High,Completed,22,19.0
+TRP-00072,RT-039,Multan to Hyderabad,National Express PK,LEA-7041,AC,Multan,Hyderabad,2025-05-27,Weekday,06:50,20:00,770,790,20,24,42,57.14,915,21960,231.1,DRV-0147,Cloudy,Moderate,Completed,6,20.0
+TRP-00073,RT-004,Quetta to Multan,City Metro Bus,SGD-6626,AC,Quetta,Multan,2025-02-13,Weekday,20:50,08:35,671,705,34,25,47,53.19,655,16375,174.8,DRV-0073,Cloudy,High,Completed,20,8.0
+TRP-00074,RT-034,Multan to Quetta,City Metro Bus,QTA-6482,Mini Bus,Multan,Quetta,2025-02-03,Weekday,14:05,00:43,614,638,24,16,31,51.61,630,10080,91.6,DRV-0150,Sunny,Moderate,Completed,14,0.0
+TRP-00075,RT-036,Faisalabad to Multan,Blue Line Transit,QTA-2388,Standard,Faisalabad,Multan,2025-06-08,Weekend,21:30,02:43,276,313,37,30,45,66.67,300,9000,63.2,DRV-0080,Rainy,Moderate,Completed,21,2.0
+TRP-00076,RT-033,Multan to Lahore,National Express PK,KHI-3538,Standard,Multan,Lahore,2025-02-09,Weekend,13:05,20:03,377,418,41,18,36,50.0,390,7020,92.3,DRV-0178,Cloudy,High,Completed,13,20.0
+TRP-00077,RT-040,Islamabad to Quetta,Sindh Rapid Transit,KHI-8277,Electric,Islamabad,Quetta,2025-11-09,Weekend,13:55,05:30,920,935,15,41,47,87.23,1190,48790,57.6,DRV-0174,Cloudy,Low,Completed,13,5.0
+TRP-00078,RT-041,Sialkot to Quetta,Blue Line Transit,PES-3655,AC,Sialkot,Quetta,2025-04-13,Weekend,08:20,01:22,969,1022,53,45,55,81.82,955,42975,294.4,DRV-0132,Foggy,Moderate,Delayed,8,1.0
+TRP-00079,RT-013,Lahore to Sialkot,Pak Urban Transport,ISB-1436,Mini Bus,Lahore,Sialkot,2025-08-01,Weekday,05:30,08:22,162,172,10,23,28,82.14,210,4830,21.6,DRV-0167,Sunny,Low,Completed,5,8.0
+TRP-00080,RT-012,Islamabad to Rawalpindi,Capital Bus Service,PES-3273,Hybrid,Islamabad,Rawalpindi,2025-12-28,Weekend,19:35,20:41,47,66,19,23,37,62.16,80,1840,3.3,DRV-0029,Sunny,Low,Completed,19,20.0
+TRP-00081,RT-042,Rawalpindi to Faisalabad,Pak Urban Transport,SGD-8489,AC,Rawalpindi,Faisalabad,2025-02-02,Weekend,07:35,14:14,381,399,18,18,40,45.0,365,6570,103.9,DRV-0147,Cloudy,Moderate,Completed,7,14.0
+TRP-00082,RT-009,Faisalabad to Islamabad,Sindh Rapid Transit,MUL-9914,Standard,Faisalabad,Islamabad,2025-09-17,Weekday,20:40,03:11,391,391,0,26,50,52.0,385,10010,93.3,DRV-0018,Sunny,Low,Completed,20,3.0
+TRP-00083,RT-021,Islamabad to Sialkot,Green Line Express,QTA-6447,Mini Bus,Islamabad,Sialkot,2025-03-10,Weekday,05:25,11:00,315,335,20,26,35,74.29,330,8580,45.6,DRV-0017,Sunny,Moderate,Completed,5,11.0
+TRP-00084,RT-043,Quetta to Karachi,City Metro Bus,LEA-6170,Mini Bus,Quetta,Karachi,2025-06-08,Weekend,20:30,08:10,691,700,9,23,33,69.7,740,17020,137.7,DRV-0168,Sunny,Low,Completed,20,8.0
+TRP-00085,RT-019,Faisalabad to Lahore,Blue Line Transit,QTA-8204,Hybrid,Faisalabad,Lahore,2025-07-17,Weekday,14:10,17:24,169,194,25,19,50,38.0,195,3705,24.6,DRV-0155,Sunny,High,Completed,14,17.0
+TRP-00086,RT-044,Islamabad to Hyderabad,Green Line Express,QTA-5843,Standard,Islamabad,Hyderabad,2025-06-06,Weekday,18:45,17:47,1343,1382,39,19,40,47.5,1465,27835,422.4,DRV-0015,Cloudy,Low,Delayed,18,17.0
+TRP-00087,RT-017,Islamabad to Faisalabad,Punjab Transit,KHI-8179,Hybrid,Islamabad,Faisalabad,2025-01-18,Weekend,08:05,,371,0,0,0,46,0.0,405,0,0.0,DRV-0040,Sunny,High,Cancelled,8,
+TRP-00088,RT-018,Multan to Sialkot,Green Line Express,MUL-7012,AC,Multan,Sialkot,2025-07-23,Weekday,14:50,00:04,537,554,17,18,43,41.86,505,9090,151.3,DRV-0067,Sunny,Low,Completed,14,0.0
+TRP-00089,RT-045,Faisalabad to Rawalpindi,National Express PK,KHI-2213,Standard,Faisalabad,Rawalpindi,2025-08-20,Weekday,09:55,17:26,396,451,55,23,37,62.16,365,8395,89.1,DRV-0075,Rainy,High,Completed,9,17.0
+TRP-00090,RT-022,Sialkot to Islamabad,Pak Urban Transport,KHI-3275,Standard,Sialkot,Islamabad,2025-05-02,Weekday,19:00,01:09,331,369,38,25,46,54.35,305,7625,73.6,DRV-0123,Sunny,High,Delayed,19,1.0
+TRP-00091,RT-026,Sialkot to Lahore,Green Line Express,ISB-2215,Standard,Sialkot,Lahore,2025-08-19,Weekday,18:50,22:25,162,215,53,22,39,56.41,190,4180,39.7,DRV-0015,Foggy,High,Completed,18,22.0
+TRP-00092,RT-046,Hyderabad to Islamabad,Punjab Transit,QTA-4694,AC,Hyderabad,Islamabad,2025-06-27,Weekday,20:20,18:48,1309,1348,39,32,48,66.67,1490,47680,454.0,DRV-0024,Sunny,High,Completed,20,18.0
+TRP-00093,RT-008,Rawalpindi to Islamabad,Punjab Transit,MUL-6531,Standard,Rawalpindi,Islamabad,2025-10-16,Weekday,05:00,06:41,49,101,52,20,36,55.56,80,1600,4.8,DRV-0164,Foggy,Moderate,Completed,5,6.0
+TRP-00094,RT-009,Faisalabad to Islamabad,Capital Bus Service,SGD-7653,AC,Faisalabad,Islamabad,2025-06-02,Weekday,18:05,00:04,335,359,24,23,45,51.11,420,9660,97.2,DRV-0082,Sunny,Moderate,Completed,18,0.0
+TRP-00095,RT-047,Multan to Peshawar,Sindh Rapid Transit,LEA-6228,AC,Multan,Peshawar,2025-05-04,Weekend,18:05,07:29,785,804,19,35,47,74.47,790,27650,236.8,DRV-0041,Sunny,Low,Completed,18,7.0
+TRP-00096,RT-048,Sialkot to Multan,Punjab Transit,MUL-8648,AC,Sialkot,Multan,2025-09-13,Weekend,13:35,23:28,571,593,22,26,52,50.0,555,14430,152.0,DRV-0168,Cloudy,High,Completed,13,23.0
+TRP-00097,RT-049,Faisalabad to Hyderabad,Green Line Express,ISB-6992,AC,Faisalabad,Hyderabad,2025-07-26,Weekend,15:00,07:18,966,978,12,44,58,75.86,1040,45760,286.6,DRV-0072,Cloudy,Low,Completed,15,7.0
+TRP-00098,RT-026,Sialkot to Lahore,Green Line Express,SGD-6555,AC,Sialkot,Lahore,2025-10-13,Weekday,15:10,18:46,176,216,40,34,56,60.71,210,7140,45.0,DRV-0039,Sunny,Low,Delayed,15,18.0
+TRP-00099,RT-046,Hyderabad to Islamabad,Sindh Rapid Transit,MUL-5902,Standard,Hyderabad,Islamabad,2025-10-31,Weekday,14:40,12:44,1313,1324,11,26,50,52.0,1615,41990,397.1,DRV-0029,Cloudy,Low,Completed,14,12.0
+TRP-00100,RT-050,Faisalabad to Sialkot,City Metro Bus,ISB-4728,Electric,Faisalabad,Sialkot,2025-01-27,Weekday,22:35,04:04,299,329,30,49,60,81.67,280,13720,13.6,DRV-0029,Rainy,Moderate,Completed,22,4.0
+TRP-00101,RT-011,Rawalpindi to Peshawar,Punjab Transit,KHI-7723,AC,Rawalpindi,Peshawar,2025-09-14,Weekend,19:55,23:50,209,235,26,32,44,72.73,260,8320,61.0,DRV-0118,Cloudy,Moderate,Completed,19,23.0
+TRP-00102,RT-039,Multan to Hyderabad,Capital Bus Service,KHI-5038,Electric,Multan,Hyderabad,2025-05-23,Weekday,21:20,12:52,887,932,45,26,49,53.06,890,23140,47.7,DRV-0071,Rainy,Moderate,Completed,21,12.0
+TRP-00103,RT-007,Lahore to Karachi,Blue Line Transit,PES-6654,Hybrid,Lahore,Karachi,2025-03-16,Weekend,13:00,09:56,1235,1256,21,22,37,59.46,1250,27500,227.6,DRV-0144,Sunny,Moderate,Completed,13,9.0
+TRP-00104,RT-051,Lahore to Islamabad,Pak Urban Transport,QTA-9700,Standard,Lahore,Islamabad,2025-04-26,Weekend,11:00,18:37,457,457,0,44,45,97.78,490,21560,110.4,DRV-0041,Cloudy,Low,Completed,11,18.0
+TRP-00105,RT-011,Rawalpindi to Peshawar,Pak Urban Transport,ISB-6262,Mini Bus,Rawalpindi,Peshawar,2025-05-27,Weekday,05:05,08:52,213,227,14,22,28,78.57,225,4950,28.3,DRV-0046,Cloudy,Moderate,Completed,5,8.0
+TRP-00106,RT-052,Peshawar to Karachi,Punjab Transit,SGD-5742,Hybrid,Peshawar,Karachi,2025-01-20,Weekday,04:20,04:18,1380,1438,58,23,38,60.53,1770,40710,284.8,DRV-0035,Foggy,Moderate,Completed,4,4.0
+TRP-00107,RT-053,Quetta to Faisalabad,Green Line Express,QTA-8518,AC,Quetta,Faisalabad,2025-11-28,Weekday,12:55,04:45,907,950,43,38,50,76.0,815,30970,252.2,DRV-0132,Rainy,Moderate,Completed,12,4.0
+TRP-00108,RT-026,Sialkot to Lahore,Punjab Transit,PES-6301,Hybrid,Sialkot,Lahore,2025-05-08,Weekday,04:20,07:54,168,214,46,33,49,67.35,200,6600,26.6,DRV-0178,Rainy,High,Completed,4,7.0
+TRP-00109,RT-017,Islamabad to Faisalabad,Capital Bus Service,QTA-9233,Standard,Islamabad,Faisalabad,2025-12-27,Weekend,13:55,20:32,382,397,15,26,44,59.09,380,9880,95.1,DRV-0156,Sunny,Low,Completed,13,20.0
+TRP-00110,RT-021,Islamabad to Sialkot,National Express PK,SGD-4578,Mini Bus,Islamabad,Sialkot,2025-05-07,Weekday,06:40,12:53,324,373,49,19,30,63.33,310,5890,43.3,DRV-0039,Sunny,Moderate,Delayed,6,12.0
+TRP-00111,RT-036,Faisalabad to Multan,Pak Urban Transport,PES-2489,Mini Bus,Faisalabad,Multan,2025-09-19,Weekday,18:00,23:02,290,302,12,18,33,54.55,305,5490,42.1,DRV-0001,Sunny,Moderate,Completed,18,23.0
+TRP-00112,RT-026,Sialkot to Lahore,Sindh Rapid Transit,MUL-1987,Mini Bus,Sialkot,Lahore,2025-02-05,Weekday,19:00,22:56,172,236,64,23,27,85.19,205,4715,23.9,DRV-0098,Rainy,High,Completed,19,22.0
+TRP-00113,RT-013,Lahore to Sialkot,Punjab Transit,ISB-2943,Electric,Lahore,Sialkot,2025-04-02,Weekday,21:30,01:23,161,233,72,26,47,55.32,200,5200,6.9,DRV-0098,Rainy,High,Completed,21,1.0
+TRP-00114,RT-054,Rawalpindi to Quetta,Capital Bus Service,QTA-2848,Standard,Rawalpindi,Quetta,2025-01-17,Weekday,17:45,09:13,914,928,14,23,35,65.71,1080,24840,267.9,DRV-0013,Sunny,Low,Completed,17,9.0
+TRP-00115,RT-016,Karachi to Hyderabad,Pak Urban Transport,SGD-1924,AC,Karachi,Hyderabad,2025-03-13,Weekday,20:20,00:38,231,258,27,29,58,50.0,230,6670,60.4,DRV-0037,Sunny,High,Completed,20,0.0
+TRP-00116,RT-025,Hyderabad to Rawalpindi,Capital Bus Service,MUL-3869,Standard,Hyderabad,Rawalpindi,2025-11-17,Weekday,17:40,17:31,1380,1431,51,25,46,54.35,1540,38500,449.7,DRV-0077,Foggy,Moderate,Completed,17,17.0
+TRP-00117,RT-036,Faisalabad to Multan,Pak Urban Transport,QTA-3365,AC,Faisalabad,Multan,2025-08-26,Weekday,05:40,10:39,293,299,6,27,53,50.94,300,8100,77.3,DRV-0021,Cloudy,Low,Completed,5,10.0
+TRP-00118,RT-006,Lahore to Multan,Pak Urban Transport,PES-1647,Standard,Lahore,Multan,2025-02-07,Weekday,10:45,17:00,359,375,16,34,41,82.93,420,14280,99.4,DRV-0031,Sunny,High,Completed,10,17.0
+TRP-00119,RT-054,Rawalpindi to Quetta,Pak Urban Transport,KHI-6269,AC,Rawalpindi,Quetta,2025-05-25,Weekend,16:35,08:48,959,973,14,30,51,58.82,1105,33150,300.6,DRV-0121,Sunny,Low,Completed,16,8.0
+TRP-00120,RT-037,Multan to Rawalpindi,Blue Line Transit,SGD-4625,Standard,Multan,Rawalpindi,2025-03-16,Weekend,04:20,15:14,636,654,18,43,48,89.58,700,30100,157.6,DRV-0168,Sunny,Low,Completed,4,15.0
+TRP-00121,RT-036,Faisalabad to Multan,National Express PK,QTA-9037,Hybrid,Faisalabad,Multan,2025-08-24,Weekend,09:55,14:41,266,286,20,32,40,80.0,275,8800,46.7,DRV-0020,Sunny,Moderate,Completed,9,14.0
+TRP-00122,RT-055,Karachi to Sialkot,Pak Urban Transport,KHI-1149,Standard,Karachi,Sialkot,2025-04-22,Weekday,20:35,19:01,1333,1346,13,18,50,36.0,1390,25020,422.7,DRV-0136,Cloudy,Low,Completed,20,19.0
+TRP-00123,RT-056,Hyderabad to Faisalabad,Blue Line Transit,KHI-2753,Mini Bus,Hyderabad,Faisalabad,2025-02-19,Weekday,20:10,13:15,1001,1025,24,18,34,52.94,1165,20970,197.1,DRV-0104,Cloudy,High,Completed,20,13.0
+TRP-00124,RT-006,Lahore to Multan,Pak Urban Transport,SGD-2320,Standard,Lahore,Multan,2025-12-01,Weekday,05:05,,385,0,0,0,47,0.0,415,0,0.0,DRV-0044,Cloudy,Low,Cancelled,5,
+TRP-00125,RT-026,Sialkot to Lahore,Sindh Rapid Transit,SGD-2562,AC,Sialkot,Lahore,2025-09-28,Weekend,05:15,08:35,176,200,24,36,58,62.07,180,6480,45.3,DRV-0005,Sunny,Low,Delayed,5,8.0
+TRP-00126,RT-021,Islamabad to Sialkot,Blue Line Transit,ISB-3661,Hybrid,Islamabad,Sialkot,2025-10-16,Weekday,11:45,16:46,293,301,8,28,47,59.57,320,8960,55.9,DRV-0089,Cloudy,Moderate,Completed,11,16.0
+TRP-00127,RT-013,Lahore to Sialkot,Green Line Express,SGD-7499,AC,Lahore,Sialkot,2025-06-17,Weekday,04:50,08:01,173,191,18,37,54,68.52,210,7770,44.5,DRV-0170,Sunny,Moderate,Completed,4,8.0
+TRP-00128,RT-038,Karachi to Lahore,Pak Urban Transport,LEA-5390,Mini Bus,Karachi,Lahore,2025-03-20,Weekday,16:55,12:23,1113,1168,55,20,27,74.07,1295,25900,217.0,DRV-0027,Rainy,Moderate,Delayed,16,12.0
+TRP-00129,RT-012,Islamabad to Rawalpindi,Blue Line Transit,LEA-6798,Standard,Islamabad,Rawalpindi,2025-10-11,Weekend,06:45,08:05,57,80,23,30,47,63.83,85,2550,4.1,DRV-0044,Sunny,Moderate,Completed,6,8.0
+TRP-00130,RT-021,Islamabad to Sialkot,Capital Bus Service,LEA-3739,AC,Islamabad,Sialkot,2025-08-11,Weekday,12:30,18:51,337,381,44,28,42,66.67,305,8540,81.5,DRV-0118,Sunny,High,Completed,12,18.0
+TRP-00131,RT-030,Peshawar to Islamabad,Blue Line Transit,MUL-7224,AC,Peshawar,Islamabad,2025-06-18,Weekday,18:25,23:06,245,281,36,30,60,50.0,275,8250,63.6,DRV-0102,Dust Storm,Low,Completed,18,23.0
+TRP-00132,RT-053,Quetta to Faisalabad,Pak Urban Transport,ISB-7437,AC,Quetta,Faisalabad,2025-07-06,Weekend,07:45,,904,0,0,0,57,0.0,875,0,0.0,DRV-0119,Sunny,Moderate,Cancelled,7,
+TRP-00133,RT-057,Quetta to Rawalpindi,Green Line Express,SGD-7703,Mini Bus,Quetta,Rawalpindi,2025-12-11,Weekday,19:10,11:01,939,951,12,11,28,39.29,1035,11385,187.8,DRV-0154,Sunny,Low,Completed,19,11.0
+TRP-00134,RT-026,Sialkot to Lahore,Blue Line Transit,SGD-6890,AC,Sialkot,Lahore,2025-12-26,Weekday,21:45,00:39,157,174,17,16,42,38.1,210,3360,37.4,DRV-0166,Sunny,Moderate,Completed,21,0.0
+TRP-00135,RT-047,Multan to Peshawar,Blue Line Transit,LEA-5239,Standard,Multan,Peshawar,2025-04-24,Weekday,20:55,09:34,741,759,18,29,42,69.05,770,22330,210.0,DRV-0039,Sunny,Low,Completed,20,9.0
+TRP-00136,RT-016,Karachi to Hyderabad,Capital Bus Service,LEA-2901,AC,Karachi,Hyderabad,2025-03-14,Weekday,15:20,19:43,224,263,39,23,46,50.0,245,5635,56.7,DRV-0030,Cloudy,Moderate,Delayed,15,19.0
+TRP-00137,RT-034,Multan to Quetta,Punjab Transit,QTA-4996,Hybrid,Multan,Quetta,2025-09-22,Weekday,09:40,21:18,673,698,25,32,48,66.67,675,21600,110.9,DRV-0111,Dust Storm,Low,Completed,9,21.0
+TRP-00138,RT-021,Islamabad to Sialkot,Pak Urban Transport,PES-7370,AC,Islamabad,Sialkot,2025-01-03,Weekday,10:15,16:13,339,358,19,19,42,45.24,310,5890,86.4,DRV-0030,Cloudy,Moderate,Completed,10,16.0
+TRP-00139,RT-010,Peshawar to Rawalpindi,Sindh Rapid Transit,MUL-7431,Electric,Peshawar,Rawalpindi,2025-10-28,Weekday,07:25,11:53,230,268,38,35,54,64.81,255,8925,11.4,DRV-0173,Cloudy,High,Completed,7,11.0
+TRP-00140,RT-031,Lahore to Faisalabad,Green Line Express,QTA-3316,Standard,Lahore,Faisalabad,2025-09-19,Weekday,16:30,19:40,165,190,25,29,47,61.7,215,6235,37.4,DRV-0126,Sunny,Moderate,Completed,16,19.0
+TRP-00141,RT-012,Islamabad to Rawalpindi,National Express PK,SGD-6882,Electric,Islamabad,Rawalpindi,2025-01-05,Weekend,19:10,20:56,53,106,53,31,52,59.62,80,2480,1.0,DRV-0022,Dust Storm,Moderate,Completed,19,20.0
+TRP-00142,RT-042,Rawalpindi to Faisalabad,Pak Urban Transport,KHI-8492,AC,Rawalpindi,Faisalabad,2025-10-17,Weekday,19:40,02:32,390,412,22,44,58,75.86,390,17160,103.2,DRV-0011,Sunny,Moderate,Completed,19,2.0
+TRP-00143,RT-058,Quetta to Hyderabad,Blue Line Transit,SGD-5055,Standard,Quetta,Hyderabad,2025-06-02,Weekday,05:35,19:39,821,844,23,28,37,75.68,840,23520,220.0,DRV-0151,Sunny,High,Completed,5,19.0
+TRP-00144,RT-023,Sialkot to Peshawar,Punjab Transit,SGD-4390,Mini Bus,Sialkot,Peshawar,2025-01-31,Weekday,22:25,07:01,507,516,9,22,34,64.71,535,11770,82.3,DRV-0132,Cloudy,Low,Completed,22,7.0
+TRP-00145,RT-059,Islamabad to Lahore,Blue Line Transit,ISB-3078,Hybrid,Islamabad,Lahore,2025-12-26,Weekday,08:15,16:44,452,509,57,30,45,66.67,430,12900,78.3,DRV-0161,Rainy,High,Completed,8,16.0
+TRP-00146,RT-011,Rawalpindi to Peshawar,Green Line Express,QTA-5558,AC,Rawalpindi,Peshawar,2025-12-22,Weekday,15:35,19:19,198,224,26,33,50,66.0,225,7425,55.3,DRV-0179,Cloudy,High,Completed,15,19.0
+TRP-00147,RT-019,Faisalabad to Lahore,Blue Line Transit,PES-4470,Standard,Faisalabad,Lahore,2025-09-11,Weekday,12:25,15:11,156,166,10,36,45,80.0,200,7200,35.4,DRV-0013,Cloudy,Low,Completed,12,15.0
+TRP-00148,RT-009,Faisalabad to Islamabad,National Express PK,SGD-3588,Standard,Faisalabad,Islamabad,2025-08-14,Weekday,18:00,00:02,315,362,47,38,48,79.17,400,15200,80.1,DRV-0071,Sunny,Moderate,Delayed,18,0.0
+TRP-00149,RT-004,Quetta to Multan,Sindh Rapid Transit,QTA-3711,Electric,Quetta,Multan,2025-01-27,Weekday,16:50,04:16,650,686,36,18,47,38.3,605,10890,37.1,DRV-0152,Sunny,Low,Delayed,16,4.0
+TRP-00150,RT-017,Islamabad to Faisalabad,City Metro Bus,SGD-2975,Mini Bus,Islamabad,Faisalabad,2025-08-05,Weekday,08:35,15:50,386,435,49,17,31,54.84,385,6545,52.8,DRV-0035,Sunny,High,Delayed,8,15.0
+TRP-00151,RT-051,Lahore to Islamabad,City Metro Bus,KHI-8210,Electric,Lahore,Islamabad,2025-06-29,Weekend,10:50,17:32,394,402,8,46,53,86.79,460,21160,24.6,DRV-0099,Cloudy,Moderate,Completed,10,17.0
+TRP-00152,RT-013,Lahore to Sialkot,Punjab Transit,QTA-2380,Standard,Lahore,Sialkot,2025-05-08,Weekday,21:45,01:14,158,209,51,29,44,65.91,185,5365,37.0,DRV-0049,Rainy,High,Completed,21,1.0
+TRP-00153,RT-001,Karachi to Faisalabad,Pak Urban Transport,LEA-4949,AC,Karachi,Faisalabad,2025-09-13,Weekend,06:40,23:53,946,1033,87,37,40,92.5,1090,40330,306.7,DRV-0019,Dust Storm,High,Delayed,6,23.0
+TRP-00154,RT-031,Lahore to Faisalabad,Pak Urban Transport,LEA-7520,Standard,Lahore,Faisalabad,2025-09-17,Weekday,13:50,16:59,160,189,29,20,48,41.67,200,4000,37.7,DRV-0022,Sunny,Moderate,Completed,13,16.0
+TRP-00155,RT-014,Multan to Faisalabad,Punjab Transit,PES-2083,AC,Multan,Faisalabad,2025-06-08,Weekend,17:55,22:25,256,270,14,34,47,72.34,300,10200,76.1,DRV-0171,Sunny,Low,Completed,17,22.0
+TRP-00156,RT-059,Islamabad to Lahore,Punjab Transit,KHI-9133,Mini Bus,Islamabad,Lahore,2025-06-27,Weekday,20:40,03:20,392,400,8,21,29,72.41,495,10395,69.5,DRV-0031,Sunny,Low,Completed,20,3.0
+TRP-00157,RT-060,Multan to Karachi,Capital Bus Service,ISB-2262,AC,Multan,Karachi,2025-09-12,Weekday,18:40,10:15,904,935,31,38,55,69.09,980,37240,316.5,DRV-0030,Rainy,Low,Completed,18,10.0
+TRP-00158,RT-036,Faisalabad to Multan,City Metro Bus,PES-6963,Standard,Faisalabad,Multan,2025-07-16,Weekday,08:10,12:57,257,287,30,18,36,50.0,285,5130,62.2,DRV-0107,Cloudy,High,Completed,8,12.0
+TRP-00159,RT-036,Faisalabad to Multan,Sindh Rapid Transit,QTA-1862,Standard,Faisalabad,Multan,2025-04-02,Weekday,11:40,16:11,254,271,17,18,47,38.3,275,4950,55.8,DRV-0117,Sunny,Moderate,Completed,11,16.0
+TRP-00160,RT-033,Multan to Lahore,Capital Bus Service,KHI-8600,Mini Bus,Multan,Lahore,2025-07-08,Weekday,22:35,04:38,340,363,23,10,28,35.71,455,4550,67.9,DRV-0139,Rainy,Moderate,Completed,22,4.0
+TRP-00161,RT-021,Islamabad to Sialkot,Sindh Rapid Transit,QTA-7164,Standard,Islamabad,Sialkot,2025-06-07,Weekend,07:15,12:54,317,339,22,25,42,59.52,330,8250,68.8,DRV-0134,Sunny,High,Completed,7,12.0
+TRP-00162,RT-004,Quetta to Multan,Green Line Express,MUL-3187,Electric,Quetta,Multan,2025-11-23,Weekend,16:05,02:42,609,637,28,38,41,92.68,620,23560,31.6,DRV-0084,Sunny,High,Completed,16,2.0
+TRP-00163,RT-030,Peshawar to Islamabad,Pak Urban Transport,SGD-2785,Standard,Peshawar,Islamabad,2025-03-21,Weekday,07:10,11:30,244,260,16,23,45,51.11,250,5750,53.7,DRV-0068,Sunny,Moderate,Completed,7,11.0
+TRP-00164,RT-059,Islamabad to Lahore,Capital Bus Service,QTA-1660,Mini Bus,Islamabad,Lahore,2025-04-21,Weekday,14:10,22:40,458,510,52,23,28,82.14,475,10925,71.9,DRV-0116,Dust Storm,Moderate,Delayed,14,22.0
+TRP-00165,RT-025,Hyderabad to Rawalpindi,Green Line Express,KHI-2989,Mini Bus,Hyderabad,Rawalpindi,2025-01-07,Weekday,05:15,04:45,1380,1410,30,15,31,48.39,1515,22725,293.1,DRV-0020,Sunny,Moderate,Completed,5,4.0
+TRP-00166,RT-031,Lahore to Faisalabad,National Express PK,LEA-6432,Mini Bus,Lahore,Faisalabad,2025-03-04,Weekday,05:35,09:22,192,227,35,15,34,44.12,210,3150,24.3,DRV-0055,Sunny,High,Completed,5,9.0
+TRP-00167,RT-050,Faisalabad to Sialkot,Punjab Transit,MUL-5026,Standard,Faisalabad,Sialkot,2025-11-28,Weekday,13:35,18:21,280,286,6,34,50,68.0,290,9860,59.1,DRV-0135,Sunny,Low,Completed,13,18.0
+TRP-00168,RT-014,Multan to Faisalabad,Blue Line Transit,ISB-8859,Mini Bus,Multan,Faisalabad,2025-10-06,Weekday,19:25,,259,0,0,0,33,0.0,285,0,0.0,DRV-0153,Sunny,Low,Cancelled,19,
+TRP-00169,RT-030,Peshawar to Islamabad,National Express PK,SGD-4813,AC,Peshawar,Islamabad,2025-03-23,Weekend,07:15,11:25,231,250,19,45,48,93.75,255,11475,64.5,DRV-0091,Cloudy,Moderate,Completed,7,11.0
+TRP-00170,RT-021,Islamabad to Sialkot,Sindh Rapid Transit,QTA-6878,Mini Bus,Islamabad,Sialkot,2025-10-30,Weekday,04:55,10:24,303,329,26,17,34,50.0,295,5015,41.0,DRV-0126,Cloudy,Moderate,Completed,4,10.0
+TRP-00171,RT-016,Karachi to Hyderabad,Pak Urban Transport,PES-1011,Standard,Karachi,Hyderabad,2025-06-19,Weekday,10:10,14:36,224,266,42,28,40,70.0,220,6160,42.1,DRV-0037,Foggy,High,Completed,10,14.0
+TRP-00172,RT-039,Multan to Hyderabad,Sindh Rapid Transit,QTA-7481,Mini Bus,Multan,Hyderabad,2025-10-28,Weekday,07:25,22:54,871,929,58,12,27,44.44,900,10800,145.2,DRV-0144,Dust Storm,Moderate,Completed,7,22.0
+TRP-00173,RT-048,Sialkot to Multan,Punjab Transit,QTA-5825,AC,Sialkot,Multan,2025-03-07,Weekday,09:55,19:45,574,590,16,38,58,65.52,545,20710,136.1,DRV-0157,Sunny,High,Completed,9,19.0
+TRP-00174,RT-038,Karachi to Lahore,National Express PK,QTA-2274,Standard,Karachi,Lahore,2025-05-02,Weekday,15:25,13:18,1269,1313,44,18,37,48.65,1335,24030,345.0,DRV-0064,Rainy,High,Completed,15,13.0
+TRP-00175,RT-036,Faisalabad to Multan,City Metro Bus,PES-7875,Standard,Faisalabad,Multan,2025-03-27,Weekday,17:35,22:13,260,278,18,31,46,67.39,280,8680,62.1,DRV-0176,Cloudy,Low,Completed,17,22.0
+TRP-00176,RT-011,Rawalpindi to Peshawar,City Metro Bus,ISB-5278,Standard,Rawalpindi,Peshawar,2025-02-23,Weekend,06:25,10:29,242,244,2,34,47,72.34,240,8160,50.2,DRV-0124,Sunny,Low,Completed,6,10.0
+TRP-00177,RT-015,Islamabad to Peshawar,Blue Line Transit,LEA-6424,Standard,Islamabad,Peshawar,2025-04-16,Weekday,10:30,15:01,229,271,42,18,43,41.86,265,4770,47.2,DRV-0093,Cloudy,Low,Delayed,10,15.0
+TRP-00178,RT-031,Lahore to Faisalabad,National Express PK,LEA-4390,Standard,Lahore,Faisalabad,2025-03-29,Weekend,13:05,16:07,170,182,12,30,38,78.95,195,5850,38.5,DRV-0095,Sunny,Moderate,Completed,13,16.0
+TRP-00179,RT-061,Multan to Islamabad,Capital Bus Service,ISB-4706,AC,Multan,Islamabad,2025-05-18,Weekend,22:00,10:08,710,728,18,22,43,51.16,685,15070,210.3,DRV-0100,Sunny,Low,Completed,22,10.0
+TRP-00180,RT-002,Hyderabad to Peshawar,National Express PK,KHI-8803,AC,Hyderabad,Peshawar,2025-06-03,Weekday,06:30,06:03,1380,1413,33,17,41,41.46,1800,30600,496.7,DRV-0115,Cloudy,High,Completed,6,6.0
+TRP-00181,RT-008,Rawalpindi to Islamabad,Pak Urban Transport,PES-2283,Standard,Rawalpindi,Islamabad,2025-12-16,Weekday,17:15,18:17,51,62,11,27,43,62.79,80,2160,4.5,DRV-0142,Sunny,Moderate,Completed,17,18.0
+TRP-00182,RT-015,Islamabad to Peshawar,City Metro Bus,MUL-9561,Mini Bus,Islamabad,Peshawar,2025-08-03,Weekend,07:30,12:10,265,280,15,31,34,91.18,240,7440,34.8,DRV-0138,Cloudy,Moderate,Completed,7,12.0
+TRP-00183,RT-062,Peshawar to Faisalabad,National Express PK,PES-1613,AC,Peshawar,Faisalabad,2025-03-30,Weekend,12:30,21:36,530,546,16,29,59,49.15,565,16385,147.0,DRV-0069,Cloudy,Moderate,Completed,12,21.0
+TRP-00184,RT-060,Multan to Karachi,Capital Bus Service,SGD-9054,AC,Multan,Karachi,2025-12-23,Weekday,07:15,23:59,951,1004,53,24,54,44.44,995,23880,305.5,DRV-0055,Rainy,Moderate,Completed,7,23.0
+TRP-00185,RT-063,Quetta to Peshawar,Sindh Rapid Transit,MUL-3604,Mini Bus,Quetta,Peshawar,2025-02-03,Weekday,13:55,08:42,1100,1127,27,21,27,77.78,1245,26145,210.8,DRV-0064,Rainy,Moderate,Completed,13,8.0
+TRP-00186,RT-005,Hyderabad to Karachi,Pak Urban Transport,SGD-8605,Standard,Hyderabad,Karachi,2025-09-16,Weekday,16:50,20:30,193,220,27,22,35,62.86,255,5610,46.0,DRV-0089,Sunny,Moderate,Completed,16,20.0
+TRP-00187,RT-015,Islamabad to Peshawar,Green Line Express,PES-1813,Standard,Islamabad,Peshawar,2025-03-25,Weekday,22:15,01:55,220,220,0,33,42,78.57,280,9240,58.3,DRV-0175,Cloudy,Low,Completed,22,1.0
+TRP-00188,RT-008,Rawalpindi to Islamabad,City Metro Bus,MUL-6004,Standard,Rawalpindi,Islamabad,2025-12-31,Weekday,12:30,13:45,59,75,16,35,46,76.09,80,2800,3.9,DRV-0102,Sunny,Low,Completed,12,13.0
+TRP-00189,RT-005,Hyderabad to Karachi,Sindh Rapid Transit,MUL-5631,AC,Hyderabad,Karachi,2025-06-02,Weekday,07:35,12:16,242,281,39,21,48,43.75,225,4725,47.8,DRV-0133,Cloudy,High,Completed,7,12.0
+TRP-00190,RT-052,Peshawar to Karachi,Punjab Transit,QTA-9148,Mini Bus,Peshawar,Karachi,2025-06-01,Weekend,12:30,11:57,1380,1407,27,21,25,84.0,1615,33915,304.5,DRV-0122,Cloudy,High,Completed,12,11.0
+TRP-00191,RT-039,Multan to Hyderabad,Punjab Transit,MUL-3967,Mini Bus,Multan,Hyderabad,2025-05-31,Weekend,07:35,23:27,908,952,44,16,29,55.17,795,12720,132.3,DRV-0079,Rainy,Moderate,Completed,7,23.0
+TRP-00192,RT-004,Quetta to Multan,Capital Bus Service,LEA-8709,AC,Quetta,Multan,2025-01-28,Weekday,22:45,08:47,566,602,36,23,42,54.76,690,15870,162.3,DRV-0039,Sunny,Low,Delayed,22,8.0
+TRP-00193,RT-033,Multan to Lahore,National Express PK,SGD-3954,Standard,Multan,Lahore,2025-02-11,Weekday,19:25,01:38,367,373,6,29,40,72.5,445,12905,92.4,DRV-0044,Sunny,Low,Completed,19,1.0
+TRP-00194,RT-064,Quetta to Islamabad,Green Line Express,PES-8035,Standard,Quetta,Islamabad,2025-07-26,Weekend,17:35,10:36,1000,1021,21,21,36,58.33,1050,22050,300.8,DRV-0161,Cloudy,Moderate,Completed,17,10.0
+TRP-00195,RT-065,Rawalpindi to Multan,Green Line Express,MUL-6015,AC,Rawalpindi,Multan,2025-03-27,Weekday,06:00,17:32,674,692,18,26,49,53.06,690,17940,207.8,DRV-0126,Sunny,Moderate,Completed,6,17.0
+TRP-00196,RT-033,Multan to Lahore,Blue Line Transit,KHI-3149,Standard,Multan,Lahore,2025-04-19,Weekend,04:45,11:56,377,431,54,27,38,71.05,440,11880,104.8,DRV-0028,Sunny,High,Delayed,4,11.0
+TRP-00197,RT-066,Sialkot to Karachi,Blue Line Transit,LEA-9966,AC,Sialkot,Karachi,2025-05-10,Weekend,19:55,19:37,1380,1422,42,45,60,75.0,1410,63450,401.9,DRV-0131,Sunny,Moderate,Delayed,19,19.0
+TRP-00198,RT-031,Lahore to Faisalabad,Green Line Express,MUL-4272,AC,Lahore,Faisalabad,2025-05-15,Weekday,20:15,23:17,176,182,6,37,53,69.81,210,7770,45.8,DRV-0124,Sunny,Low,Completed,20,23.0
+TRP-00199,RT-016,Karachi to Hyderabad,Green Line Express,SGD-9095,Hybrid,Karachi,Hyderabad,2025-03-18,Weekday,06:40,11:33,242,293,51,14,38,36.84,255,3570,33.1,DRV-0045,Foggy,High,Completed,6,11.0
+TRP-00200,RT-014,Multan to Faisalabad,Sindh Rapid Transit,LEA-2556,AC,Multan,Faisalabad,2025-01-24,Weekday,04:10,09:05,275,295,20,24,45,53.33,290,6960,77.0,DRV-0088,Sunny,High,Completed,4,9.0
+TRP-00201,RT-013,Lahore to Sialkot,National Express PK,PES-8835,Standard,Lahore,Sialkot,2025-08-04,Weekday,09:05,13:35,180,270,90,16,36,44.44,190,3040,39.6,DRV-0098,Dust Storm,High,Delayed,9,13.0
+TRP-00202,RT-055,Karachi to Sialkot,Punjab Transit,PES-2850,AC,Karachi,Sialkot,2025-07-30,Weekday,18:00,17:46,1380,1426,46,28,60,46.67,1545,43260,428.7,DRV-0172,Sunny,High,Completed,18,17.0
+TRP-00203,RT-067,Sialkot to Hyderabad,Green Line Express,QTA-5072,AC,Sialkot,Hyderabad,2025-09-04,Weekday,15:50,12:42,1222,1252,30,19,52,36.54,1490,28310,452.9,DRV-0041,Sunny,High,Completed,15,12.0
+TRP-00204,RT-010,Peshawar to Rawalpindi,Punjab Transit,PES-6253,Standard,Peshawar,Rawalpindi,2025-05-04,Weekend,14:20,18:33,251,253,2,31,42,73.81,230,7130,53.6,DRV-0115,Cloudy,Low,Completed,14,18.0
+TRP-00205,RT-011,Rawalpindi to Peshawar,Green Line Express,QTA-1291,Hybrid,Rawalpindi,Peshawar,2025-02-22,Weekend,16:30,21:32,252,302,50,27,35,77.14,245,6615,37.6,DRV-0117,Rainy,Moderate,Completed,16,21.0
+TRP-00206,RT-068,Karachi to Multan,National Express PK,SGD-8751,AC,Karachi,Multan,2025-12-03,Weekday,15:55,07:43,886,948,62,27,43,62.79,980,26460,323.7,DRV-0096,Rainy,Moderate,Completed,15,7.0
+TRP-00207,RT-069,Karachi to Islamabad,Blue Line Transit,MUL-4209,Standard,Karachi,Islamabad,2025-04-07,Weekday,07:30,06:50,1380,1400,20,32,41,78.05,1520,48640,356.4,DRV-0151,Cloudy,Low,Completed,7,6.0
+TRP-00208,RT-011,Rawalpindi to Peshawar,Punjab Transit,LEA-9689,Hybrid,Rawalpindi,Peshawar,2025-01-25,Weekend,21:30,01:31,203,241,38,28,50,56.0,260,7280,31.4,DRV-0156,Foggy,Moderate,Completed,21,1.0
+TRP-00209,RT-002,Hyderabad to Peshawar,Pak Urban Transport,ISB-5819,Standard,Hyderabad,Peshawar,2025-08-20,Weekday,08:10,08:03,1380,1433,53,20,44,45.45,1750,35000,525.5,DRV-0160,Rainy,Moderate,Completed,8,8.0
+TRP-00210,RT-070,Islamabad to Multan,Punjab Transit,QTA-6281,AC,Islamabad,Multan,2025-12-30,Weekday,07:25,18:35,646,670,24,46,58,79.31,735,33810,197.0,DRV-0109,Cloudy,Moderate,Completed,7,18.0
+TRP-00211,RT-071,Hyderabad to Lahore,Punjab Transit,LEA-4275,Standard,Hyderabad,Lahore,2025-05-17,Weekend,09:20,04:37,1108,1157,49,32,39,82.05,1335,42720,334.4,DRV-0173,Rainy,High,Completed,9,4.0
+TRP-00212,RT-072,Rawalpindi to Hyderabad,Capital Bus Service,LEA-7251,Mini Bus,Rawalpindi,Hyderabad,2025-07-18,Weekday,17:50,17:10,1380,1400,20,27,33,81.82,1515,40905,252.8,DRV-0166,Sunny,Moderate,Completed,17,17.0
+TRP-00213,RT-007,Lahore to Karachi,Pak Urban Transport,KHI-5819,Mini Bus,Lahore,Karachi,2025-08-18,Weekday,09:50,08:25,1297,1355,58,11,27,40.74,1375,15125,237.0,DRV-0150,Rainy,Low,Delayed,9,8.0
+TRP-00214,RT-068,Karachi to Multan,Punjab Transit,ISB-1833,Standard,Karachi,Multan,2025-11-17,Weekday,13:35,03:53,827,858,31,18,46,39.13,1060,19080,276.5,DRV-0130,Sunny,High,Completed,13,3.0
+TRP-00215,RT-014,Multan to Faisalabad,Green Line Express,KHI-6437,AC,Multan,Faisalabad,2025-06-19,Weekday,15:20,20:59,309,339,30,24,59,40.68,275,6600,72.1,DRV-0089,Cloudy,High,Completed,15,20.0
+TRP-00216,RT-009,Faisalabad to Islamabad,Pak Urban Transport,QTA-6258,Hybrid,Faisalabad,Islamabad,2025-07-15,Weekday,07:30,14:07,370,397,27,25,44,56.82,370,9250,65.4,DRV-0012,Sunny,Moderate,Completed,7,14.0
+TRP-00217,RT-017,Islamabad to Faisalabad,Green Line Express,KHI-9814,Hybrid,Islamabad,Faisalabad,2025-10-01,Weekday,04:50,12:32,387,462,75,30,41,73.17,390,11700,70.7,DRV-0040,Foggy,Moderate,Delayed,4,12.0
+TRP-00218,RT-022,Sialkot to Islamabad,Green Line Express,KHI-5127,Standard,Sialkot,Islamabad,2025-10-13,Weekday,06:45,11:52,294,307,13,23,43,53.49,315,7245,63.7,DRV-0031,Sunny,Moderate,Completed,6,11.0
+TRP-00219,RT-009,Faisalabad to Islamabad,Green Line Express,MUL-1745,Mini Bus,Faisalabad,Islamabad,2025-12-25,Weekday,06:25,12:03,319,338,19,14,26,53.85,375,5250,61.8,DRV-0170,Sunny,Moderate,Completed,6,12.0
+TRP-00220,RT-008,Rawalpindi to Islamabad,Punjab Transit,SGD-9941,Mini Bus,Rawalpindi,Islamabad,2025-06-01,Weekend,08:20,09:57,58,97,39,15,25,60.0,80,1200,2.5,DRV-0022,Cloudy,Moderate,Delayed,8,9.0
+TRP-00221,RT-021,Islamabad to Sialkot,Sindh Rapid Transit,QTA-9397,Standard,Islamabad,Sialkot,2025-03-14,Weekday,09:10,14:55,344,345,1,33,43,76.74,300,9900,73.8,DRV-0141,Sunny,Low,Completed,9,14.0
+TRP-00222,RT-036,Faisalabad to Multan,Green Line Express,KHI-8982,Standard,Faisalabad,Multan,2025-06-19,Weekday,15:10,20:04,274,294,20,24,42,57.14,275,6600,68.1,DRV-0158,Sunny,Moderate,Completed,15,20.0
+TRP-00223,RT-021,Islamabad to Sialkot,Sindh Rapid Transit,PES-3762,Mini Bus,Islamabad,Sialkot,2025-01-03,Weekday,14:15,20:16,297,361,64,20,35,57.14,335,6700,40.6,DRV-0079,Sunny,High,Delayed,14,20.0
+TRP-00224,RT-031,Lahore to Faisalabad,Green Line Express,SGD-3293,Mini Bus,Lahore,Faisalabad,2025-10-03,Weekday,10:20,,159,0,0,0,35,0.0,190,0,0.0,DRV-0130,Sunny,Low,Cancelled,10,
+TRP-00225,RT-073,Peshawar to Sialkot,Pak Urban Transport,MUL-5269,Hybrid,Peshawar,Sialkot,2025-10-06,Weekday,21:35,05:58,494,503,9,16,39,41.03,590,9440,91.4,DRV-0129,Sunny,Low,Completed,21,5.0
+TRP-00226,RT-013,Lahore to Sialkot,City Metro Bus,SGD-3717,Electric,Lahore,Sialkot,2025-09-21,Weekend,08:35,12:20,178,225,47,34,58,58.62,190,6460,8.3,DRV-0017,Foggy,High,Completed,8,12.0
+TRP-00227,RT-033,Multan to Lahore,Pak Urban Transport,SGD-6918,AC,Multan,Lahore,2025-07-18,Weekday,19:35,02:21,348,406,58,31,41,75.61,450,13950,124.7,DRV-0068,Dust Storm,Moderate,Completed,19,2.0
+TRP-00228,RT-022,Sialkot to Islamabad,Blue Line Transit,QTA-2275,AC,Sialkot,Islamabad,2025-09-22,Weekday,12:30,17:29,284,299,15,35,47,74.47,335,11725,77.9,DRV-0155,Cloudy,Low,Completed,12,17.0
+TRP-00229,RT-012,Islamabad to Rawalpindi,Pak Urban Transport,QTA-5600,Standard,Islamabad,Rawalpindi,2025-04-19,Weekend,08:10,09:35,52,85,33,35,46,76.09,80,2800,4.6,DRV-0123,Cloudy,High,Completed,8,9.0
+TRP-00230,RT-038,Karachi to Lahore,Blue Line Transit,LEA-3095,Standard,Karachi,Lahore,2025-10-21,Weekday,22:10,20:00,1279,1310,31,30,36,83.33,1350,40500,340.9,DRV-0154,Foggy,Low,Completed,22,20.0
+TRP-00231,RT-074,Faisalabad to Karachi,Pak Urban Transport,PES-8891,AC,Faisalabad,Karachi,2025-03-29,Weekend,11:30,04:36,1003,1026,23,47,58,81.03,1245,58515,311.7,DRV-0117,Rainy,Low,Completed,11,4.0
+TRP-00232,RT-027,Lahore to Rawalpindi,Punjab Transit,KHI-9564,Standard,Lahore,Rawalpindi,2025-09-16,Weekday,17:10,00:52,401,462,61,16,40,40.0,455,7280,93.5,DRV-0169,Sunny,High,Delayed,17,0.0
+TRP-00233,RT-007,Lahore to Karachi,City Metro Bus,SGD-8069,Hybrid,Lahore,Karachi,2025-09-25,Weekday,17:25,12:11,1093,1126,33,31,48,64.58,1330,41230,221.2,DRV-0179,Sunny,High,Completed,17,12.0
+TRP-00234,RT-030,Peshawar to Islamabad,Pak Urban Transport,LEA-5641,Hybrid,Peshawar,Islamabad,2025-11-03,Weekday,21:30,02:01,257,271,14,12,35,34.29,245,2940,34.4,DRV-0168,Cloudy,Moderate,Completed,21,2.0
+TRP-00235,RT-004,Quetta to Multan,Green Line Express,QTA-5155,Standard,Quetta,Multan,2025-05-14,Weekday,21:30,08:40,613,670,57,27,43,62.79,670,18090,170.4,DRV-0046,Dust Storm,Low,Completed,21,8.0
+TRP-00236,RT-036,Faisalabad to Multan,Capital Bus Service,SGD-7522,AC,Faisalabad,Multan,2025-03-12,Weekday,07:55,13:32,308,337,29,31,45,68.89,300,9300,80.3,DRV-0014,Sunny,Moderate,Completed,7,13.0
+TRP-00237,RT-017,Islamabad to Faisalabad,Green Line Express,PES-8133,Mini Bus,Islamabad,Faisalabad,2025-02-15,Weekend,06:20,12:57,373,397,24,20,26,76.92,390,7800,55.1,DRV-0153,Cloudy,Moderate,Completed,6,12.0
+TRP-00238,RT-008,Rawalpindi to Islamabad,National Express PK,SGD-9489,Standard,Rawalpindi,Islamabad,2025-05-27,Weekday,10:00,10:59,54,59,5,16,40,40.0,85,1360,4.0,DRV-0071,Cloudy,Low,Completed,10,10.0
+TRP-00239,RT-047,Multan to Peshawar,Pak Urban Transport,QTA-2124,AC,Multan,Peshawar,2025-02-16,Weekend,21:20,09:33,708,733,25,42,57,73.68,825,34650,193.6,DRV-0104,Foggy,Low,Completed,21,9.0
+TRP-00240,RT-009,Faisalabad to Islamabad,Green Line Express,MUL-5821,AC,Faisalabad,Islamabad,2025-06-24,Weekday,07:40,13:47,317,367,50,42,57,73.68,425,17850,91.8,DRV-0087,Rainy,Moderate,Completed,7,13.0
+TRP-00241,RT-041,Sialkot to Quetta,City Metro Bus,ISB-2106,AC,Sialkot,Quetta,2025-07-15,Weekday,11:50,02:00,842,850,8,24,50,48.0,1075,25800,297.2,DRV-0024,Sunny,Low,Completed,11,2.0
+TRP-00242,RT-021,Islamabad to Sialkot,Green Line Express,KHI-8807,AC,Islamabad,Sialkot,2025-06-10,Weekday,15:15,20:20,289,305,16,34,48,70.83,345,11730,72.0,DRV-0061,Sunny,Moderate,Completed,15,20.0
+TRP-00243,RT-045,Faisalabad to Rawalpindi,Pak Urban Transport,ISB-3555,Mini Bus,Faisalabad,Rawalpindi,2025-02-24,Weekday,07:05,13:20,374,375,1,27,35,77.14,385,10395,61.7,DRV-0096,Sunny,Low,Completed,7,13.0
+TRP-00244,RT-053,Quetta to Faisalabad,Capital Bus Service,SGD-3101,AC,Quetta,Faisalabad,2025-01-28,Weekday,20:30,10:43,848,853,5,33,57,57.89,865,28545,257.1,DRV-0031,Sunny,Low,Completed,20,10.0
+TRP-00245,RT-034,Multan to Quetta,City Metro Bus,PES-2650,Electric,Multan,Quetta,2025-06-16,Weekday,15:45,01:39,575,594,19,23,45,51.11,675,15525,34.1,DRV-0048,Cloudy,Low,Completed,15,1.0
+TRP-00246,RT-033,Multan to Lahore,Sindh Rapid Transit,PES-5581,AC,Multan,Lahore,2025-08-19,Weekday,09:45,17:10,411,445,34,33,58,56.9,430,14190,113.8,DRV-0098,Cloudy,High,Completed,9,17.0
+TRP-00247,RT-022,Sialkot to Islamabad,City Metro Bus,PES-3203,Standard,Sialkot,Islamabad,2025-11-19,Weekday,20:40,01:58,302,318,16,35,50,70.0,345,12075,62.5,DRV-0016,Sunny,Moderate,Completed,20,1.0
+TRP-00248,RT-030,Peshawar to Islamabad,Green Line Express,ISB-5256,AC,Peshawar,Islamabad,2025-07-04,Weekday,15:40,20:02,237,262,25,31,48,64.58,250,7750,67.3,DRV-0167,Sunny,Moderate,Completed,15,20.0
+TRP-00249,RT-017,Islamabad to Faisalabad,National Express PK,PES-2284,Mini Bus,Islamabad,Faisalabad,2025-07-15,Weekday,13:35,20:10,340,395,55,17,27,62.96,420,7140,57.5,DRV-0019,Foggy,Moderate,Completed,13,20.0
+TRP-00250,RT-004,Quetta to Multan,Sindh Rapid Transit,QTA-5382,Electric,Quetta,Multan,2025-11-06,Weekday,16:20,02:15,572,595,23,21,51,41.18,665,13965,32.6,DRV-0061,Rainy,Moderate,Completed,16,2.0
+TRP-00251,RT-027,Lahore to Rawalpindi,Green Line Express,PES-9985,Standard,Lahore,Rawalpindi,2025-01-28,Weekday,04:30,12:11,408,461,53,18,37,48.65,430,7740,105.2,DRV-0073,Sunny,High,Delayed,4,12.0
+TRP-00252,RT-012,Islamabad to Rawalpindi,Punjab Transit,QTA-6846,Standard,Islamabad,Rawalpindi,2025-06-16,Weekday,19:35,21:17,55,102,47,32,49,65.31,80,2560,4.4,DRV-0145,Sunny,High,Completed,19,21.0
+TRP-00253,RT-009,Faisalabad to Islamabad,Capital Bus Service,PES-9841,Hybrid,Faisalabad,Islamabad,2025-04-27,Weekend,06:35,,365,0,0,0,48,0.0,370,0,0.0,DRV-0035,Sunny,Low,Cancelled,6,
+TRP-00254,RT-010,Peshawar to Rawalpindi,National Express PK,PES-5908,Hybrid,Peshawar,Rawalpindi,2025-01-05,Weekend,17:20,21:09,216,229,13,22,35,62.86,260,5720,39.0,DRV-0166,Cloudy,Low,Completed,17,21.0
+TRP-00255,RT-013,Lahore to Sialkot,Green Line Express,KHI-9464,AC,Lahore,Sialkot,2025-11-10,Weekday,12:20,15:22,156,182,26,23,57,40.35,200,4600,41.4,DRV-0117,Rainy,Moderate,Completed,12,15.0
+TRP-00256,RT-032,Faisalabad to Quetta,City Metro Bus,MUL-1362,Standard,Faisalabad,Quetta,2025-04-06,Weekend,07:20,22:41,890,921,31,30,49,61.22,835,25050,234.8,DRV-0128,Rainy,Low,Completed,7,22.0
+TRP-00257,RT-043,Quetta to Karachi,Punjab Transit,SGD-7429,Standard,Quetta,Karachi,2025-02-06,Weekday,21:35,12:35,825,900,75,31,43,72.09,815,25265,181.7,DRV-0009,Rainy,High,Delayed,21,12.0
+TRP-00258,RT-021,Islamabad to Sialkot,Pak Urban Transport,QTA-6113,AC,Islamabad,Sialkot,2025-06-15,Weekend,09:50,14:57,301,307,6,34,57,59.65,345,11730,86.7,DRV-0171,Cloudy,Low,Completed,9,14.0
+TRP-00259,RT-031,Lahore to Faisalabad,Blue Line Transit,KHI-5523,AC,Lahore,Faisalabad,2025-10-27,Weekday,07:30,11:06,157,216,59,29,40,72.5,215,6235,45.0,DRV-0064,Dust Storm,High,Completed,7,11.0
+TRP-00260,RT-019,Faisalabad to Lahore,Sindh Rapid Transit,SGD-1983,Hybrid,Faisalabad,Lahore,2025-01-31,Weekday,15:50,19:24,186,214,28,29,38,76.32,205,5945,26.1,DRV-0113,Sunny,Moderate,Completed,15,19.0
+TRP-00261,RT-075,Karachi to Peshawar,Punjab Transit,LEA-8951,Standard,Karachi,Peshawar,2025-12-28,Weekend,18:40,17:54,1380,1394,14,33,50,66.0,1800,59400,493.9,DRV-0142,Sunny,Low,Completed,18,17.0
+TRP-00262,RT-036,Faisalabad to Multan,Capital Bus Service,MUL-7014,Mini Bus,Faisalabad,Multan,2025-08-21,Weekday,04:50,10:20,286,330,44,19,27,70.37,275,5225,35.9,DRV-0169,Foggy,Moderate,Completed,4,10.0
+TRP-00263,RT-011,Rawalpindi to Peshawar,National Express PK,KHI-5638,Mini Bus,Rawalpindi,Peshawar,2025-06-15,Weekend,17:50,21:46,232,236,4,13,26,50.0,240,3120,33.7,DRV-0028,Cloudy,Low,Completed,17,21.0
+TRP-00264,RT-031,Lahore to Faisalabad,Blue Line Transit,MUL-5193,Electric,Lahore,Faisalabad,2025-01-26,Weekend,15:15,18:26,165,191,26,34,42,80.95,215,7310,7.3,DRV-0143,Sunny,High,Completed,15,18.0
+TRP-00265,RT-047,Multan to Peshawar,City Metro Bus,ISB-9667,Mini Bus,Multan,Peshawar,2025-01-21,Weekday,06:20,20:45,821,865,44,12,28,42.86,780,9360,120.0,DRV-0135,Dust Storm,Low,Completed,6,20.0
+TRP-00266,RT-021,Islamabad to Sialkot,Blue Line Transit,SGD-6864,Mini Bus,Islamabad,Sialkot,2025-12-12,Weekday,18:55,00:11,306,316,10,18,26,69.23,345,6210,49.0,DRV-0137,Sunny,Low,Completed,18,0.0
+TRP-00267,RT-034,Multan to Quetta,Sindh Rapid Transit,PES-8054,Mini Bus,Multan,Quetta,2025-06-15,Weekend,11:45,23:00,615,675,60,13,31,41.94,690,8970,102.5,DRV-0073,Rainy,High,Completed,11,23.0
+TRP-00268,RT-044,Islamabad to Hyderabad,Capital Bus Service,KHI-4519,Standard,Islamabad,Hyderabad,2025-06-11,Weekday,04:55,03:06,1315,1331,16,31,39,79.49,1560,48360,390.4,DRV-0064,Sunny,Moderate,Completed,4,3.0
+TRP-00269,RT-030,Peshawar to Islamabad,Blue Line Transit,KHI-2264,AC,Peshawar,Islamabad,2025-06-16,Weekday,19:10,23:46,242,276,34,44,58,75.86,240,10560,66.1,DRV-0098,Rainy,Low,Completed,19,23.0
+TRP-00270,RT-005,Hyderabad to Karachi,Sindh Rapid Transit,SGD-8115,AC,Hyderabad,Karachi,2025-08-02,Weekend,07:15,11:23,202,248,46,30,59,50.85,250,7500,60.7,DRV-0039,Foggy,High,Completed,7,11.0
+TRP-00271,RT-022,Sialkot to Islamabad,City Metro Bus,PES-8300,Electric,Sialkot,Islamabad,2025-11-01,Weekend,22:40,05:09,357,389,32,37,53,69.81,350,12950,15.3,DRV-0103,Sunny,Low,Delayed,22,5.0
+TRP-00272,RT-026,Sialkot to Lahore,Punjab Transit,PES-4245,Mini Bus,Sialkot,Lahore,2025-09-07,Weekend,16:50,19:50,160,180,20,28,33,84.85,205,5740,25.6,DRV-0148,Cloudy,High,Completed,16,19.0
+TRP-00273,RT-017,Islamabad to Faisalabad,Sindh Rapid Transit,ISB-6644,AC,Islamabad,Faisalabad,2025-11-01,Weekend,04:20,11:05,377,405,28,28,51,54.9,420,11760,97.0,DRV-0052,Cloudy,High,Completed,4,11.0
+TRP-00274,RT-059,Islamabad to Lahore,City Metro Bus,MUL-3419,Standard,Islamabad,Lahore,2025-05-28,Weekday,04:25,11:27,399,422,23,17,38,44.74,455,7735,97.9,DRV-0134,Sunny,Moderate,Completed,4,11.0
+TRP-00275,RT-058,Quetta to Hyderabad,Punjab Transit,QTA-1301,Mini Bus,Quetta,Hyderabad,2025-07-12,Weekend,22:50,12:02,773,792,19,18,29,62.07,860,15480,132.5,DRV-0003,Sunny,Low,Completed,22,12.0
+TRP-00276,RT-017,Islamabad to Faisalabad,Sindh Rapid Transit,LEA-5792,Mini Bus,Islamabad,Faisalabad,2025-11-29,Weekend,16:15,22:22,316,367,51,16,33,48.48,380,6080,60.6,DRV-0118,Dust Storm,Low,Completed,16,22.0
+TRP-00277,RT-055,Karachi to Sialkot,Capital Bus Service,PES-3572,AC,Karachi,Sialkot,2025-01-10,Weekday,15:50,14:28,1339,1358,19,40,60,66.67,1490,59600,421.1,DRV-0100,Sunny,High,Completed,15,14.0
+TRP-00278,RT-005,Hyderabad to Karachi,Pak Urban Transport,PES-3248,Standard,Hyderabad,Karachi,2025-02-14,Weekday,16:40,20:30,192,230,38,22,42,52.38,225,4950,49.3,DRV-0139,Sunny,High,Completed,16,20.0
+TRP-00279,RT-017,Islamabad to Faisalabad,Pak Urban Transport,ISB-9582,Mini Bus,Islamabad,Faisalabad,2025-03-11,Weekday,17:10,23:06,338,356,18,17,34,50.0,395,6715,62.0,DRV-0038,Foggy,Low,Completed,17,23.0
+TRP-00280,RT-076,Peshawar to Multan,Capital Bus Service,SGD-5485,AC,Peshawar,Multan,2025-03-19,Weekday,10:05,00:28,810,863,53,26,40,65.0,770,20020,238.6,DRV-0060,Rainy,Moderate,Completed,10,0.0
+TRP-00281,RT-006,Lahore to Multan,National Express PK,SGD-8680,Standard,Lahore,Multan,2025-12-31,Weekday,15:10,21:13,350,363,13,37,50,74.0,425,15725,99.0,DRV-0004,Sunny,Low,Completed,15,21.0
+TRP-00282,RT-011,Rawalpindi to Peshawar,Pak Urban Transport,LEA-3901,Mini Bus,Rawalpindi,Peshawar,2025-08-13,Weekday,19:55,00:48,232,293,61,23,32,71.88,260,5980,30.6,DRV-0101,Foggy,Moderate,Completed,19,0.0
+TRP-00283,RT-077,Hyderabad to Sialkot,City Metro Bus,PES-8485,AC,Hyderabad,Sialkot,2025-01-22,Weekday,11:40,08:45,1258,1265,7,20,41,48.78,1350,27000,377.4,DRV-0102,Cloudy,Moderate,Completed,11,8.0
+TRP-00284,RT-032,Faisalabad to Quetta,Capital Bus Service,LEA-9470,Electric,Faisalabad,Quetta,2025-03-14,Weekday,18:50,09:25,853,875,22,31,56,55.36,900,27900,48.1,DRV-0083,Sunny,Moderate,Completed,18,9.0
+TRP-00285,RT-012,Islamabad to Rawalpindi,Pak Urban Transport,LEA-5097,Hybrid,Islamabad,Rawalpindi,2025-06-15,Weekend,09:55,11:10,50,75,25,26,37,70.27,85,2210,2.9,DRV-0131,Sunny,Moderate,Completed,9,11.0
+TRP-00286,RT-030,Peshawar to Islamabad,City Metro Bus,ISB-3459,Mini Bus,Peshawar,Islamabad,2025-03-25,Weekday,08:10,12:09,225,239,14,12,25,48.0,245,2940,30.1,DRV-0047,Sunny,Low,Completed,8,12.0
+TRP-00287,RT-008,Rawalpindi to Islamabad,City Metro Bus,ISB-1200,Electric,Rawalpindi,Islamabad,2025-08-23,Weekend,19:35,21:01,47,86,39,33,59,55.93,80,2640,0.9,DRV-0021,Foggy,Low,Completed,19,21.0
+TRP-00288,RT-078,Rawalpindi to Karachi,Capital Bus Service,MUL-4401,Electric,Rawalpindi,Karachi,2025-01-26,Weekend,09:10,08:48,1380,1418,38,30,51,58.82,1510,45300,84.8,DRV-0028,Sunny,High,Completed,9,8.0
+TRP-00289,RT-012,Islamabad to Rawalpindi,Capital Bus Service,QTA-3906,Electric,Islamabad,Rawalpindi,2025-08-22,Weekday,22:25,23:49,48,84,36,24,42,57.14,85,2040,0.9,DRV-0141,Rainy,Low,Completed,22,23.0
+TRP-00290,RT-011,Rawalpindi to Peshawar,Capital Bus Service,PES-9595,AC,Rawalpindi,Peshawar,2025-04-18,Weekday,10:45,15:55,250,310,60,47,58,81.03,245,11515,59.6,DRV-0074,Rainy,Moderate,Completed,10,15.0
+TRP-00291,RT-004,Quetta to Multan,Sindh Rapid Transit,MUL-9132,Hybrid,Quetta,Multan,2025-09-24,Weekday,19:35,,582,0,0,0,42,0.0,645,0,0.0,DRV-0007,Cloudy,High,Cancelled,19,
+TRP-00292,RT-019,Faisalabad to Lahore,Pak Urban Transport,PES-7783,Mini Bus,Faisalabad,Lahore,2025-01-24,Weekday,14:25,17:31,166,186,20,18,35,51.43,205,3690,26.1,DRV-0130,Sunny,High,Completed,14,17.0
+TRP-00293,RT-016,Karachi to Hyderabad,Sindh Rapid Transit,QTA-1477,AC,Karachi,Hyderabad,2025-03-31,Weekday,10:25,14:41,197,256,59,32,55,58.18,255,8160,49.5,DRV-0138,Foggy,High,Completed,10,14.0
+TRP-00294,RT-079,Peshawar to Quetta,City Metro Bus,ISB-6169,Mini Bus,Peshawar,Quetta,2025-10-12,Weekend,21:00,16:50,1174,1190,16,19,35,54.29,1340,25460,208.1,DRV-0097,Sunny,High,Completed,21,16.0
+TRP-00295,RT-015,Islamabad to Peshawar,Green Line Express,SGD-6050,Mini Bus,Islamabad,Peshawar,2025-12-28,Weekend,14:55,19:54,274,299,25,21,31,67.74,250,5250,33.8,DRV-0096,Sunny,High,Completed,14,19.0
+TRP-00296,RT-080,Rawalpindi to Lahore,City Metro Bus,MUL-3524,Mini Bus,Rawalpindi,Lahore,2025-04-08,Weekday,14:35,21:19,390,404,14,23,33,69.7,490,11270,68.1,DRV-0034,Sunny,Moderate,Completed,14,21.0
+TRP-00297,RT-016,Karachi to Hyderabad,Green Line Express,LEA-2426,Standard,Karachi,Hyderabad,2025-06-20,Weekday,18:00,22:26,240,266,26,20,44,45.45,230,4600,48.9,DRV-0074,Sunny,High,Completed,18,22.0
+TRP-00298,RT-034,Multan to Quetta,Green Line Express,KHI-5483,Standard,Multan,Quetta,2025-02-28,Weekday,04:45,15:03,614,618,4,31,38,81.58,625,19375,144.1,DRV-0073,Sunny,Low,Completed,4,15.0
+TRP-00299,RT-059,Islamabad to Lahore,Sindh Rapid Transit,LEA-3131,AC,Islamabad,Lahore,2025-01-15,Weekday,19:50,04:03,462,493,31,35,52,67.31,430,15050,111.8,DRV-0177,Sunny,Moderate,Completed,19,4.0
+TRP-00300,RT-048,Sialkot to Multan,Pak Urban Transport,QTA-9740,Mini Bus,Sialkot,Multan,2025-02-10,Weekday,18:45,04:15,556,570,14,19,32,59.38,520,9880,77.4,DRV-0058,Sunny,Low,Completed,18,4.0
+TRP-00301,RT-038,Karachi to Lahore,Sindh Rapid Transit,QTA-6412,AC,Karachi,Lahore,2025-06-16,Weekday,18:35,16:42,1310,1327,17,36,55,65.45,1365,49140,366.1,DRV-0033,Sunny,Moderate,Completed,18,16.0
+TRP-00302,RT-026,Sialkot to Lahore,Green Line Express,QTA-2162,AC,Sialkot,Lahore,2025-06-04,Weekday,21:35,00:46,167,191,24,20,53,37.74,190,3800,45.0,DRV-0054,Sunny,Moderate,Completed,21,0.0
+TRP-00303,RT-073,Peshawar to Sialkot,Blue Line Transit,ISB-9921,AC,Peshawar,Sialkot,2025-12-22,Weekday,11:10,20:06,493,536,43,24,42,57.14,545,13080,157.0,DRV-0143,Rainy,Moderate,Completed,11,20.0
+TRP-00304,RT-011,Rawalpindi to Peshawar,Blue Line Transit,LEA-7208,Standard,Rawalpindi,Peshawar,2025-06-17,Weekday,19:50,23:42,212,232,20,28,37,75.68,230,6440,45.1,DRV-0038,Sunny,Low,Completed,19,23.0
+TRP-00305,RT-058,Quetta to Hyderabad,National Express PK,QTA-6187,Standard,Quetta,Hyderabad,2025-06-03,Weekday,22:50,12:51,813,841,28,31,48,64.58,740,22940,184.7,DRV-0131,Cloudy,High,Completed,22,12.0
+TRP-00306,RT-008,Rawalpindi to Islamabad,City Metro Bus,MUL-1870,AC,Rawalpindi,Islamabad,2025-01-01,Weekday,21:25,22:57,50,92,42,25,49,51.02,80,2000,4.5,DRV-0098,Foggy,Low,Completed,21,22.0
+TRP-00307,RT-026,Sialkot to Lahore,Punjab Transit,KHI-7301,AC,Sialkot,Lahore,2025-07-04,Weekday,17:10,,172,0,0,0,44,0.0,185,0,0.0,DRV-0125,Sunny,Low,Cancelled,17,
+TRP-00308,RT-059,Islamabad to Lahore,Blue Line Transit,SGD-7974,Mini Bus,Islamabad,Lahore,2025-11-16,Weekend,09:35,17:15,415,460,45,27,33,81.82,430,11610,68.5,DRV-0061,Rainy,Moderate,Completed,9,17.0
+TRP-00309,RT-062,Peshawar to Faisalabad,Sindh Rapid Transit,LEA-8917,Standard,Peshawar,Faisalabad,2025-12-27,Weekend,15:05,23:23,480,498,18,27,37,72.97,500,13500,122.1,DRV-0157,Sunny,Moderate,Completed,15,23.0
+TRP-00310,RT-010,Peshawar to Rawalpindi,Green Line Express,MUL-6119,Mini Bus,Peshawar,Rawalpindi,2025-11-10,Weekday,05:25,09:23,219,238,19,13,25,52.0,245,3185,32.8,DRV-0076,Sunny,Moderate,Completed,5,9.0
+TRP-00311,RT-005,Hyderabad to Karachi,Capital Bus Service,MUL-5267,Mini Bus,Hyderabad,Karachi,2025-02-01,Weekend,19:45,23:47,235,242,7,17,25,68.0,220,3740,32.7,DRV-0020,Cloudy,Moderate,Completed,19,23.0
+TRP-00312,RT-050,Faisalabad to Sialkot,Capital Bus Service,ISB-1232,Standard,Faisalabad,Sialkot,2025-02-27,Weekday,09:45,14:09,257,264,7,29,49,59.18,290,8410,54.1,DRV-0136,Sunny,Low,Completed,9,14.0
+TRP-00313,RT-006,Lahore to Multan,Punjab Transit,SGD-7765,Mini Bus,Lahore,Multan,2025-07-16,Weekday,11:50,18:43,382,413,31,17,35,48.57,445,7565,69.2,DRV-0030,Sunny,High,Completed,11,18.0
+TRP-00314,RT-011,Rawalpindi to Peshawar,Capital Bus Service,SGD-9724,AC,Rawalpindi,Peshawar,2025-04-30,Weekday,16:50,20:39,210,229,19,30,55,54.55,225,6750,52.7,DRV-0081,Sunny,Moderate,Completed,16,20.0
+TRP-00315,RT-007,Lahore to Karachi,Sindh Rapid Transit,PES-5466,Hybrid,Lahore,Karachi,2025-06-21,Weekend,12:20,07:08,1109,1128,19,37,43,86.05,1405,51985,263.1,DRV-0174,Cloudy,Moderate,Completed,12,7.0
+TRP-00316,RT-061,Multan to Islamabad,City Metro Bus,LEA-7737,Mini Bus,Multan,Islamabad,2025-02-20,Weekday,20:05,06:34,629,629,0,20,30,66.67,650,13000,101.1,DRV-0015,Sunny,Low,Completed,20,6.0
+TRP-00317,RT-027,Lahore to Rawalpindi,Green Line Express,MUL-3128,Standard,Lahore,Rawalpindi,2025-07-12,Weekend,22:10,04:57,377,407,30,36,40,90.0,445,16020,105.8,DRV-0110,Sunny,Moderate,Completed,22,4.0
+TRP-00318,RT-014,Multan to Faisalabad,Green Line Express,LEA-7271,Standard,Multan,Faisalabad,2025-07-18,Weekday,14:00,19:12,306,312,6,28,43,65.12,300,8400,61.1,DRV-0046,Sunny,Low,Completed,14,19.0
+TRP-00319,RT-059,Islamabad to Lahore,Blue Line Transit,QTA-2740,Standard,Islamabad,Lahore,2025-08-15,Weekday,12:05,20:09,464,484,20,25,37,67.57,455,11375,114.1,DRV-0001,Cloudy,Moderate,Completed,12,20.0
+TRP-00320,RT-062,Peshawar to Faisalabad,Sindh Rapid Transit,MUL-1060,Hybrid,Peshawar,Faisalabad,2025-09-21,Weekend,19:35,04:05,495,510,15,20,37,54.05,490,9800,84.8,DRV-0092,Cloudy,Low,Completed,19,4.0
+TRP-00321,RT-030,Peshawar to Islamabad,Green Line Express,SGD-6571,AC,Peshawar,Islamabad,2025-02-11,Weekday,18:20,22:43,232,263,31,36,45,80.0,270,9720,66.5,DRV-0162,Cloudy,High,Completed,18,22.0
+TRP-00322,RT-081,Lahore to Quetta,National Express PK,KHI-1584,Mini Bus,Lahore,Quetta,2025-04-09,Weekday,04:55,17:16,732,741,9,17,28,60.71,940,15980,154.3,DRV-0116,Sunny,Low,Completed,4,17.0
+TRP-00323,RT-055,Karachi to Sialkot,Sindh Rapid Transit,LEA-7643,Mini Bus,Karachi,Sialkot,2025-03-02,Weekend,10:50,08:30,1253,1300,47,14,32,43.75,1370,19180,242.2,DRV-0168,Foggy,High,Completed,10,8.0
+TRP-00324,RT-038,Karachi to Lahore,Punjab Transit,QTA-1818,Standard,Karachi,Lahore,2025-06-07,Weekend,07:35,03:24,1153,1189,36,17,37,45.95,1345,22865,325.5,DRV-0087,Rainy,Low,Completed,7,3.0
+TRP-00325,RT-076,Peshawar to Multan,Punjab Transit,SGD-4493,AC,Peshawar,Multan,2025-01-24,Weekday,22:10,11:24,772,794,22,19,43,44.19,740,14060,213.2,DRV-0063,Sunny,Moderate,Completed,22,11.0
+TRP-00326,RT-069,Karachi to Islamabad,Blue Line Transit,LEA-8978,Mini Bus,Karachi,Islamabad,2025-02-11,Weekday,04:00,03:29,1380,1409,29,12,26,46.15,1430,17160,248.9,DRV-0164,Cloudy,High,Completed,4,3.0
+TRP-00327,RT-011,Rawalpindi to Peshawar,Punjab Transit,LEA-3949,Electric,Rawalpindi,Peshawar,2025-09-13,Weekend,06:50,10:17,204,207,3,48,49,97.96,230,11040,10.0,DRV-0159,Sunny,Low,Completed,6,10.0
+TRP-00328,RT-014,Multan to Faisalabad,National Express PK,QTA-4409,Mini Bus,Multan,Faisalabad,2025-05-22,Weekday,05:15,10:54,319,339,20,18,27,66.67,280,5040,44.5,DRV-0012,Cloudy,High,Completed,5,10.0
+TRP-00329,RT-004,Quetta to Multan,Blue Line Transit,MUL-8424,Standard,Quetta,Multan,2025-01-23,Weekday,07:55,19:27,690,692,2,32,40,80.0,665,21280,167.7,DRV-0114,Sunny,Low,Completed,7,19.0
+TRP-00330,RT-047,Multan to Peshawar,Sindh Rapid Transit,LEA-6343,Standard,Multan,Peshawar,2025-04-27,Weekend,07:15,19:17,707,722,15,20,41,48.78,805,16100,192.2,DRV-0056,Sunny,Low,Completed,7,19.0
+TRP-00331,RT-064,Quetta to Islamabad,Punjab Transit,KHI-6875,AC,Quetta,Islamabad,2025-05-19,Weekday,10:25,04:18,1059,1073,14,32,58,55.17,1040,33280,331.0,DRV-0088,Sunny,Low,Completed,10,4.0
+TRP-00332,RT-015,Islamabad to Peshawar,Punjab Transit,MUL-4763,AC,Islamabad,Peshawar,2025-02-14,Weekday,17:40,22:11,241,271,30,22,46,47.83,260,5720,64.3,DRV-0112,Cloudy,High,Completed,17,22.0
+TRP-00333,RT-021,Islamabad to Sialkot,City Metro Bus,LEA-1656,AC,Islamabad,Sialkot,2025-08-29,Weekday,20:00,01:49,325,349,24,24,52,46.15,320,7680,73.1,DRV-0143,Sunny,Moderate,Completed,20,1.0
+TRP-00334,RT-010,Peshawar to Rawalpindi,Capital Bus Service,LEA-1260,Standard,Peshawar,Rawalpindi,2025-09-03,Weekday,13:10,17:20,210,250,40,23,35,65.71,235,5405,47.2,DRV-0163,Dust Storm,Moderate,Completed,13,17.0
+TRP-00335,RT-017,Islamabad to Faisalabad,Sindh Rapid Transit,ISB-7977,AC,Islamabad,Faisalabad,2025-05-19,Weekday,21:45,03:29,328,344,16,35,42,83.33,405,14175,105.1,DRV-0173,Cloudy,Low,Completed,21,3.0
+TRP-00336,RT-016,Karachi to Hyderabad,Sindh Rapid Transit,LEA-6989,AC,Karachi,Hyderabad,2025-07-07,Weekday,09:50,13:48,211,238,27,26,42,61.9,230,5980,60.5,DRV-0167,Cloudy,High,Completed,9,13.0
+TRP-00337,RT-007,Lahore to Karachi,Pak Urban Transport,SGD-4693,Mini Bus,Lahore,Karachi,2025-06-14,Weekend,15:20,11:14,1179,1194,15,24,31,77.42,1360,32640,208.9,DRV-0121,Sunny,Low,Completed,15,11.0
+TRP-00338,RT-056,Hyderabad to Faisalabad,Sindh Rapid Transit,QTA-2075,Mini Bus,Hyderabad,Faisalabad,2025-04-07,Weekday,18:05,12:03,1038,1078,40,16,27,59.26,1015,16240,163.8,DRV-0053,Sunny,High,Delayed,18,12.0
+TRP-00339,RT-017,Islamabad to Faisalabad,Blue Line Transit,MUL-3163,Hybrid,Islamabad,Faisalabad,2025-08-31,Weekend,15:30,21:31,354,361,7,31,35,88.57,380,11780,59.2,DRV-0086,Sunny,Low,Completed,15,21.0
+TRP-00340,RT-034,Multan to Quetta,Sindh Rapid Transit,QTA-9686,AC,Multan,Quetta,2025-10-08,Weekday,18:35,05:57,650,682,32,24,44,54.55,620,14880,174.1,DRV-0074,Foggy,Low,Completed,18,5.0
+TRP-00341,RT-069,Karachi to Islamabad,National Express PK,MUL-3634,Hybrid,Karachi,Islamabad,2025-12-31,Weekday,21:20,20:56,1380,1416,36,16,40,40.0,1465,23440,317.0,DRV-0082,Rainy,High,Completed,21,20.0
+TRP-00342,RT-053,Quetta to Faisalabad,Pak Urban Transport,LEA-6192,AC,Quetta,Faisalabad,2025-06-26,Weekday,08:25,,854,0,0,0,45,0.0,805,0,0.0,DRV-0128,Cloudy,Low,Cancelled,8,
+TRP-00343,RT-004,Quetta to Multan,Sindh Rapid Transit,ISB-8764,Electric,Quetta,Multan,2025-05-29,Weekday,22:50,11:06,675,736,61,46,58,79.31,655,30130,33.7,DRV-0036,Rainy,High,Completed,22,11.0
+TRP-00344,RT-031,Lahore to Faisalabad,Pak Urban Transport,LEA-6347,AC,Lahore,Faisalabad,2025-01-29,Weekday,10:45,13:35,168,170,2,40,48,83.33,215,8600,38.6,DRV-0101,Sunny,Low,Completed,10,13.0
+TRP-00345,RT-034,Multan to Quetta,City Metro Bus,ISB-7513,Hybrid,Multan,Quetta,2025-03-17,Weekday,17:25,04:20,638,655,17,14,35,40.0,645,9030,127.9,DRV-0114,Sunny,Low,Completed,17,4.0
+TRP-00346,RT-079,Peshawar to Quetta,Blue Line Transit,PES-3286,Mini Bus,Peshawar,Quetta,2025-10-28,Weekday,06:10,02:51,1175,1241,66,13,32,40.62,1325,17225,224.6,DRV-0105,Dust Storm,Moderate,Completed,6,2.0
+TRP-00347,RT-082,Faisalabad to Peshawar,National Express PK,SGD-3243,Mini Bus,Faisalabad,Peshawar,2025-04-13,Weekend,09:30,18:36,512,546,34,24,32,75.0,505,12120,74.7,DRV-0007,Sunny,High,Completed,9,18.0
+TRP-00348,RT-017,Islamabad to Faisalabad,National Express PK,QTA-5713,Standard,Islamabad,Faisalabad,2025-08-02,Weekend,09:35,15:09,320,334,14,36,42,85.71,405,14580,99.9,DRV-0145,Sunny,Moderate,Completed,9,15.0
+TRP-00349,RT-015,Islamabad to Peshawar,National Express PK,SGD-2959,Hybrid,Islamabad,Peshawar,2025-07-11,Weekday,20:55,00:55,236,240,4,23,43,53.49,260,5980,38.6,DRV-0014,Sunny,Low,Completed,20,0.0
+TRP-00350,RT-026,Sialkot to Lahore,Sindh Rapid Transit,ISB-9677,Standard,Sialkot,Lahore,2025-11-24,Weekday,06:40,10:26,177,226,49,19,40,47.5,190,3610,38.2,DRV-0179,Rainy,High,Completed,6,10.0
+TRP-00351,RT-071,Hyderabad to Lahore,Punjab Transit,MUL-5610,Standard,Hyderabad,Lahore,2025-07-10,Weekday,19:30,15:27,1191,1197,6,30,40,75.0,1240,37200,324.1,DRV-0144,Sunny,Low,Completed,19,15.0
+TRP-00352,RT-067,Sialkot to Hyderabad,Green Line Express,LEA-2909,AC,Sialkot,Hyderabad,2025-03-09,Weekend,04:35,02:49,1310,1334,24,27,51,52.94,1415,38205,427.2,DRV-0031,Sunny,Moderate,Completed,4,2.0
+TRP-00353,RT-022,Sialkot to Islamabad,Pak Urban Transport,KHI-3133,AC,Sialkot,Islamabad,2025-02-10,Weekday,17:55,23:01,299,306,7,17,43,39.53,310,5270,72.8,DRV-0169,Sunny,Moderate,Completed,17,23.0
+TRP-00354,RT-016,Karachi to Hyderabad,Capital Bus Service,ISB-1168,Standard,Karachi,Hyderabad,2025-02-19,Weekday,07:45,12:24,233,279,46,22,41,53.66,240,5280,44.9,DRV-0129,Sunny,Moderate,Delayed,7,12.0
+TRP-00355,RT-028,Rawalpindi to Sialkot,Green Line Express,MUL-1229,Standard,Rawalpindi,Sialkot,2025-09-28,Weekend,10:55,,326,0,0,0,44,0.0,310,0,0.0,DRV-0026,Sunny,Moderate,Cancelled,10,
+TRP-00356,RT-083,Hyderabad to Quetta,Punjab Transit,LEA-3963,AC,Hyderabad,Quetta,2025-07-01,Weekday,16:30,06:38,830,848,18,29,47,61.7,755,21895,228.5,DRV-0127,Sunny,Moderate,Completed,16,6.0
+TRP-00357,RT-056,Hyderabad to Faisalabad,Green Line Express,LEA-7304,AC,Hyderabad,Faisalabad,2025-05-26,Weekday,18:45,10:05,901,920,19,42,54,77.78,1090,45780,283.4,DRV-0122,Sunny,Moderate,Completed,18,10.0
+TRP-00358,RT-061,Multan to Islamabad,National Express PK,PES-8177,Electric,Multan,Islamabad,2025-09-25,Weekday,06:05,18:13,711,728,17,28,52,53.85,665,18620,33.0,DRV-0051,Cloudy,High,Completed,6,18.0
+TRP-00359,RT-007,Lahore to Karachi,Blue Line Transit,SGD-7958,Standard,Lahore,Karachi,2025-09-13,Weekend,12:55,08:37,1117,1182,65,42,43,97.67,1245,52290,388.8,DRV-0131,Rainy,High,Completed,12,8.0
+TRP-00360,RT-011,Rawalpindi to Peshawar,Capital Bus Service,KHI-3205,AC,Rawalpindi,Peshawar,2025-01-16,Weekday,07:55,12:25,251,270,19,29,42,69.05,235,6815,60.0,DRV-0040,Sunny,Low,Completed,7,12.0
+TRP-00361,RT-038,Karachi to Lahore,Green Line Express,MUL-9064,Electric,Karachi,Lahore,2025-08-27,Weekday,10:20,05:49,1141,1169,28,20,55,36.36,1285,25700,77.7,DRV-0009,Cloudy,Moderate,Completed,10,5.0
+TRP-00362,RT-084,Lahore to Peshawar,Blue Line Transit,LEA-1538,AC,Lahore,Peshawar,2025-04-01,Weekday,21:50,07:15,524,565,41,27,49,55.1,625,16875,171.2,DRV-0029,Foggy,Low,Completed,21,7.0
+TRP-00363,RT-083,Hyderabad to Quetta,National Express PK,SGD-3560,AC,Hyderabad,Quetta,2025-09-17,Weekday,05:30,19:47,820,857,37,21,58,36.21,795,16695,224.7,DRV-0012,Dust Storm,Moderate,Completed,5,19.0
+TRP-00364,RT-004,Quetta to Multan,City Metro Bus,QTA-6591,Mini Bus,Quetta,Multan,2025-07-14,Weekday,07:30,18:21,644,651,7,20,30,66.67,640,12800,114.1,DRV-0152,Sunny,Low,Completed,7,18.0
+TRP-00365,RT-022,Sialkot to Islamabad,Capital Bus Service,KHI-1322,Standard,Sialkot,Islamabad,2025-10-03,Weekday,14:00,20:05,322,365,43,17,48,35.42,340,5780,78.3,DRV-0082,Cloudy,High,Completed,14,20.0
+TRP-00366,RT-013,Lahore to Sialkot,Green Line Express,LEA-4373,Mini Bus,Lahore,Sialkot,2025-06-22,Weekend,19:40,22:39,150,179,29,27,35,77.14,185,4995,24.4,DRV-0020,Sunny,High,Completed,19,22.0
+TRP-00367,RT-025,Hyderabad to Rawalpindi,City Metro Bus,MUL-7586,Standard,Hyderabad,Rawalpindi,2025-04-26,Weekend,06:55,04:51,1300,1316,16,25,38,65.79,1680,42000,378.5,DRV-0020,Cloudy,Low,Completed,6,4.0
+TRP-00368,RT-056,Hyderabad to Faisalabad,Blue Line Transit,ISB-4278,Electric,Hyderabad,Faisalabad,2025-08-01,Weekday,16:20,08:12,921,952,31,42,54,77.78,1010,42420,63.2,DRV-0148,Cloudy,Moderate,Completed,16,8.0
+TRP-00369,RT-009,Faisalabad to Islamabad,National Express PK,QTA-9728,Standard,Faisalabad,Islamabad,2025-11-11,Weekday,17:45,23:22,333,337,4,26,36,72.22,400,10400,97.9,DRV-0077,Cloudy,Low,Completed,17,23.0
+TRP-00370,RT-047,Multan to Peshawar,Green Line Express,SGD-7757,Electric,Multan,Peshawar,2025-05-17,Weekend,13:50,03:15,805,805,0,38,59,64.41,725,27550,44.2,DRV-0119,Sunny,Low,Completed,13,3.0
+TRP-00371,RT-013,Lahore to Sialkot,City Metro Bus,ISB-3235,Standard,Lahore,Sialkot,2025-01-15,Weekday,12:20,14:56,156,156,0,15,40,37.5,185,2775,32.9,DRV-0022,Cloudy,Low,Completed,12,14.0
+TRP-00372,RT-015,Islamabad to Peshawar,Blue Line Transit,QTA-2479,Hybrid,Islamabad,Peshawar,2025-07-23,Weekday,08:15,13:17,268,302,34,23,38,60.53,245,5635,40.8,DRV-0024,Cloudy,High,Completed,8,13.0
+TRP-00373,RT-019,Faisalabad to Lahore,Sindh Rapid Transit,MUL-7388,AC,Faisalabad,Lahore,2025-05-01,Weekday,17:15,20:42,186,207,21,27,45,60.0,205,5535,42.9,DRV-0096,Sunny,Moderate,Completed,17,20.0
+TRP-00374,RT-033,Multan to Lahore,National Express PK,ISB-3374,Mini Bus,Multan,Lahore,2025-07-05,Weekend,19:55,02:42,389,407,18,17,29,58.62,410,6970,68.5,DRV-0164,Sunny,High,Completed,19,2.0
+TRP-00375,RT-006,Lahore to Multan,Pak Urban Transport,PES-1128,Mini Bus,Lahore,Multan,2025-07-21,Weekday,12:20,19:59,415,459,44,14,28,50.0,415,5810,67.6,DRV-0165,Sunny,High,Completed,12,19.0
+TRP-00376,RT-016,Karachi to Hyderabad,Green Line Express,PES-8718,Mini Bus,Karachi,Hyderabad,2025-07-31,Weekday,14:55,19:37,219,282,63,19,26,73.08,235,4465,29.5,DRV-0141,Rainy,High,Completed,14,19.0
+TRP-00377,RT-085,Karachi to Quetta,Punjab Transit,SGD-3229,Electric,Karachi,Quetta,2025-01-02,Weekday,16:15,05:00,745,765,20,37,50,74.0,785,29045,40.4,DRV-0153,Cloudy,Low,Completed,16,5.0
+TRP-00378,RT-034,Multan to Quetta,Punjab Transit,QTA-6367,Standard,Multan,Quetta,2025-05-25,Weekend,10:05,20:57,634,652,18,26,40,65.0,680,17680,160.8,DRV-0143,Sunny,Low,Completed,10,20.0
+TRP-00379,RT-027,Lahore to Rawalpindi,Pak Urban Transport,SGD-3764,Standard,Lahore,Rawalpindi,2025-01-26,Weekend,16:45,00:13,417,448,31,21,43,48.84,435,9135,116.5,DRV-0117,Sunny,High,Completed,16,0.0
+TRP-00380,RT-086,Quetta to Lahore,Pak Urban Transport,SGD-5361,Standard,Quetta,Lahore,2025-05-28,Weekday,19:30,10:37,878,907,29,18,41,43.9,920,16560,240.7,DRV-0038,Cloudy,High,Completed,19,10.0
+TRP-00381,RT-030,Peshawar to Islamabad,National Express PK,ISB-8506,Hybrid,Peshawar,Islamabad,2025-02-13,Weekday,04:35,09:50,266,315,49,25,45,55.56,275,6875,39.1,DRV-0153,Dust Storm,Low,Completed,4,9.0
+TRP-00382,RT-019,Faisalabad to Lahore,City Metro Bus,KHI-8715,AC,Faisalabad,Lahore,2025-07-01,Weekday,05:00,08:32,181,212,31,22,59,37.29,190,4180,47.2,DRV-0046,Sunny,High,Completed,5,8.0
+TRP-00383,RT-036,Faisalabad to Multan,Sindh Rapid Transit,KHI-2468,Mini Bus,Faisalabad,Multan,2025-06-12,Weekday,20:30,02:15,316,345,29,21,26,80.77,300,6300,39.0,DRV-0073,Sunny,High,Completed,20,2.0
+TRP-00384,RT-087,Sialkot to Faisalabad,Blue Line Transit,ISB-9049,Hybrid,Sialkot,Faisalabad,2025-03-19,Weekday,21:50,02:15,264,265,1,29,49,59.18,270,7830,46.1,DRV-0042,Sunny,Low,Completed,21,2.0
+TRP-00385,RT-084,Lahore to Peshawar,National Express PK,ISB-8949,Standard,Lahore,Peshawar,2025-08-23,Weekend,19:05,03:56,526,531,5,36,39,92.31,610,21960,147.6,DRV-0070,Sunny,Low,Completed,19,3.0
+TRP-00386,RT-028,Rawalpindi to Sialkot,City Metro Bus,MUL-3958,AC,Rawalpindi,Sialkot,2025-08-02,Weekend,06:15,11:20,280,305,25,31,43,72.09,325,10075,80.8,DRV-0028,Foggy,Low,Completed,6,11.0
+TRP-00387,RT-020,Islamabad to Karachi,National Express PK,ISB-1095,AC,Islamabad,Karachi,2025-06-18,Weekday,05:50,04:42,1340,1372,32,25,54,46.3,1460,36500,441.2,DRV-0013,Sunny,High,Completed,5,4.0
+TRP-00388,RT-014,Multan to Faisalabad,Green Line Express,MUL-7248,AC,Multan,Faisalabad,2025-02-17,Weekday,16:20,22:04,313,344,31,35,52,67.31,285,9975,76.5,DRV-0168,Sunny,High,Completed,16,22.0
+TRP-00389,RT-030,Peshawar to Islamabad,Blue Line Transit,ISB-3151,Mini Bus,Peshawar,Islamabad,2025-07-03,Weekday,07:25,11:44,240,259,19,18,32,56.25,240,4320,34.7,DRV-0109,Sunny,Low,Completed,7,11.0
+TRP-00390,RT-022,Sialkot to Islamabad,Blue Line Transit,MUL-6599,Standard,Sialkot,Islamabad,2025-08-26,Weekday,11:50,17:25,304,335,31,22,39,56.41,335,7370,76.8,DRV-0123,Foggy,Moderate,Completed,11,17.0
+TRP-00391,RT-008,Rawalpindi to Islamabad,Capital Bus Service,MUL-8007,Mini Bus,Rawalpindi,Islamabad,2025-06-01,Weekend,22:00,23:15,49,75,26,19,25,76.0,80,1520,3.0,DRV-0091,Cloudy,Moderate,Completed,22,23.0
+TRP-00392,RT-019,Faisalabad to Lahore,City Metro Bus,QTA-8583,Standard,Faisalabad,Lahore,2025-04-02,Weekday,09:30,13:40,192,250,58,32,48,66.67,190,6080,40.5,DRV-0068,Foggy,Moderate,Completed,9,13.0
+TRP-00393,RT-012,Islamabad to Rawalpindi,Green Line Express,MUL-5248,Mini Bus,Islamabad,Rawalpindi,2025-12-11,Weekday,07:30,08:31,47,61,14,17,25,68.0,80,1360,2.7,DRV-0169,Sunny,Low,Completed,7,8.0
+TRP-00394,RT-041,Sialkot to Quetta,Sindh Rapid Transit,QTA-7471,Mini Bus,Sialkot,Quetta,2025-06-04,Weekday,06:10,22:01,951,951,0,13,28,46.43,1060,13780,151.9,DRV-0167,Sunny,Low,Completed,6,22.0
+TRP-00395,RT-033,Multan to Lahore,Pak Urban Transport,SGD-8592,Standard,Multan,Lahore,2025-03-17,Weekday,19:30,03:22,422,472,50,31,40,77.5,405,12555,102.9,DRV-0150,Foggy,High,Completed,19,3.0
+TRP-00396,RT-015,Islamabad to Peshawar,Blue Line Transit,LEA-2682,Standard,Islamabad,Peshawar,2025-11-19,Weekday,17:30,21:30,221,240,19,36,44,81.82,270,9720,54.9,DRV-0125,Sunny,Low,Completed,17,21.0
+TRP-00397,RT-005,Hyderabad to Karachi,Blue Line Transit,MUL-2040,AC,Hyderabad,Karachi,2025-05-18,Weekend,17:35,21:56,239,261,22,49,59,83.05,245,12005,54.7,DRV-0113,Foggy,Moderate,Completed,17,21.0
+TRP-00398,RT-006,Lahore to Multan,Sindh Rapid Transit,SGD-8675,Hybrid,Lahore,Multan,2025-03-09,Weekend,13:55,21:00,360,425,65,36,48,75.0,405,14580,67.1,DRV-0023,Rainy,High,Completed,13,21.0
+TRP-00399,RT-021,Islamabad to Sialkot,National Express PK,PES-9089,Standard,Islamabad,Sialkot,2025-06-05,Weekday,11:15,16:34,314,319,5,27,35,77.14,305,8235,77.3,DRV-0129,Sunny,Low,Completed,11,16.0
+TRP-00400,RT-031,Lahore to Faisalabad,Green Line Express,LEA-4671,Electric,Lahore,Faisalabad,2025-09-07,Weekend,12:25,16:00,157,215,58,37,41,90.24,205,7585,7.8,DRV-0113,Rainy,High,Completed,12,16.0
+TRP-00401,RT-026,Sialkot to Lahore,Green Line Express,LEA-9311,Mini Bus,Sialkot,Lahore,2025-02-23,Weekend,09:50,13:39,181,229,48,21,28,75.0,195,4095,25.6,DRV-0026,Foggy,Low,Completed,9,13.0
+TRP-00402,RT-004,Quetta to Multan,Punjab Transit,KHI-8194,Standard,Quetta,Multan,2025-08-01,Weekday,04:15,14:40,579,625,46,33,50,66.0,615,20295,164.1,DRV-0063,Sunny,Moderate,Delayed,4,14.0
+TRP-00403,RT-036,Faisalabad to Multan,Pak Urban Transport,PES-7773,Standard,Faisalabad,Multan,2025-07-29,Weekday,18:40,23:38,266,298,32,24,46,52.17,295,7080,64.9,DRV-0103,Foggy,Moderate,Completed,18,23.0
+TRP-00404,RT-015,Islamabad to Peshawar,City Metro Bus,QTA-3473,Electric,Islamabad,Peshawar,2025-10-22,Weekday,05:50,10:13,214,263,49,45,56,80.36,240,10800,12.4,DRV-0003,Dust Storm,Moderate,Completed,5,10.0
+TRP-00405,RT-044,Islamabad to Hyderabad,National Express PK,MUL-8244,Electric,Islamabad,Hyderabad,2025-12-24,Weekday,15:50,15:35,1380,1425,45,33,46,71.74,1690,55770,90.0,DRV-0033,Foggy,Low,Completed,15,15.0
+TRP-00406,RT-036,Faisalabad to Multan,Green Line Express,ISB-9541,AC,Faisalabad,Multan,2025-06-24,Weekday,09:00,14:40,327,340,13,48,57,84.21,305,14640,79.6,DRV-0029,Cloudy,Low,Completed,9,14.0
+TRP-00407,RT-036,Faisalabad to Multan,Sindh Rapid Transit,SGD-3043,Standard,Faisalabad,Multan,2025-08-18,Weekday,13:45,18:33,270,288,18,31,49,63.27,305,9455,57.8,DRV-0161,Sunny,Low,Completed,13,18.0
+TRP-00408,RT-029,Sialkot to Rawalpindi,Capital Bus Service,SGD-3293,Electric,Sialkot,Rawalpindi,2025-07-13,Weekend,20:55,02:30,321,335,14,28,50,56.0,310,8680,14.5,DRV-0106,Cloudy,Low,Completed,20,2.0
+TRP-00409,RT-016,Karachi to Hyderabad,Punjab Transit,PES-2279,AC,Karachi,Hyderabad,2025-07-09,Weekday,20:30,01:07,210,277,67,39,56,69.64,235,9165,57.2,DRV-0126,Rainy,High,Completed,20,1.0
+TRP-00410,RT-030,Peshawar to Islamabad,Punjab Transit,PES-3119,AC,Peshawar,Islamabad,2025-12-27,Weekend,20:40,01:25,268,285,17,33,46,71.74,275,9075,67.0,DRV-0155,Sunny,Low,Completed,20,1.0
+TRP-00411,RT-013,Lahore to Sialkot,Capital Bus Service,KHI-2929,Standard,Lahore,Sialkot,2025-07-10,Weekday,13:25,16:29,171,184,13,19,50,38.0,195,3705,32.5,DRV-0079,Sunny,Low,Completed,13,16.0
+TRP-00412,RT-012,Islamabad to Rawalpindi,National Express PK,MUL-6712,Standard,Islamabad,Rawalpindi,2025-02-04,Weekday,05:30,07:16,62,106,44,19,44,43.18,85,1615,4.7,DRV-0163,Cloudy,High,Completed,5,7.0
+TRP-00413,RT-010,Peshawar to Rawalpindi,Punjab Transit,ISB-2463,Mini Bus,Peshawar,Rawalpindi,2025-11-16,Weekend,17:30,21:42,238,252,14,27,31,87.1,230,6210,34.6,DRV-0043,Sunny,Low,Completed,17,21.0
+TRP-00414,RT-050,Faisalabad to Sialkot,Green Line Express,LEA-4152,Electric,Faisalabad,Sialkot,2025-11-13,Weekday,21:45,02:05,256,260,4,39,58,67.24,300,11700,13.0,DRV-0137,Cloudy,Moderate,Completed,21,2.0
+TRP-00415,RT-016,Karachi to Hyderabad,Pak Urban Transport,QTA-8278,Standard,Karachi,Hyderabad,2025-02-13,Weekday,21:45,01:58,225,253,28,13,36,36.11,240,3120,46.2,DRV-0136,Sunny,High,Completed,21,1.0
+TRP-00416,RT-030,Peshawar to Islamabad,Green Line Express,ISB-3359,AC,Peshawar,Islamabad,2025-04-04,Weekday,12:05,16:35,265,270,5,19,53,35.85,240,4560,58.2,DRV-0015,Cloudy,Low,Completed,12,16.0
+TRP-00417,RT-031,Lahore to Faisalabad,Blue Line Transit,ISB-7152,Hybrid,Lahore,Faisalabad,2025-03-03,Weekday,05:15,08:37,181,202,21,16,42,38.1,210,3360,23.4,DRV-0119,Sunny,High,Completed,5,8.0
+TRP-00418,RT-081,Lahore to Quetta,Pak Urban Transport,LEA-5409,Hybrid,Lahore,Quetta,2025-10-11,Weekend,22:50,14:26,884,936,52,32,39,82.05,910,29120,165.9,DRV-0139,Sunny,Moderate,Delayed,22,14.0
+TRP-00419,RT-025,Hyderabad to Rawalpindi,National Express PK,SGD-8612,Standard,Hyderabad,Rawalpindi,2025-11-14,Weekday,13:50,11:28,1268,1298,30,30,35,85.71,1580,47400,452.4,DRV-0162,Sunny,High,Completed,13,11.0
+TRP-00420,RT-036,Faisalabad to Multan,Punjab Transit,MUL-2145,Mini Bus,Faisalabad,Multan,2025-06-03,Weekday,06:30,12:03,272,333,61,22,27,81.48,290,6380,39.1,DRV-0082,Rainy,High,Completed,6,12.0
+TRP-00421,RT-036,Faisalabad to Multan,National Express PK,QTA-6269,Standard,Faisalabad,Multan,2025-06-24,Weekday,10:35,15:03,256,268,12,26,45,57.78,305,7930,62.4,DRV-0003,Sunny,Moderate,Completed,10,15.0
+TRP-00422,RT-002,Hyderabad to Peshawar,National Express PK,MUL-2329,Mini Bus,Hyderabad,Peshawar,2025-11-29,Weekend,06:40,05:52,1380,1392,12,30,35,85.71,1720,51600,300.9,DRV-0046,Sunny,Low,Completed,6,5.0
+TRP-00423,RT-038,Karachi to Lahore,Pak Urban Transport,KHI-1324,AC,Karachi,Lahore,2025-05-24,Weekend,15:15,13:23,1292,1328,36,29,59,49.15,1260,36540,365.6,DRV-0156,Cloudy,High,Completed,15,13.0
+TRP-00424,RT-006,Lahore to Multan,Blue Line Transit,ISB-9197,Standard,Lahore,Multan,2025-09-10,Weekday,09:40,16:55,405,435,30,32,40,80.0,420,13440,95.7,DRV-0071,Sunny,Low,Delayed,9,16.0
+TRP-00425,RT-017,Islamabad to Faisalabad,Capital Bus Service,PES-1032,Mini Bus,Islamabad,Faisalabad,2025-08-07,Weekday,05:25,11:42,355,377,22,23,31,74.19,420,9660,56.2,DRV-0058,Sunny,Moderate,Completed,5,11.0
+TRP-00426,RT-026,Sialkot to Lahore,Sindh Rapid Transit,KHI-6483,Standard,Sialkot,Lahore,2025-02-11,Weekday,22:00,01:22,144,202,58,21,42,50.0,200,4200,37.0,DRV-0161,Dust Storm,Moderate,Delayed,22,1.0
+TRP-00427,RT-085,Karachi to Quetta,City Metro Bus,QTA-6477,Electric,Karachi,Quetta,2025-05-09,Weekday,11:05,00:44,771,819,48,33,50,66.0,730,24090,44.1,DRV-0025,Rainy,High,Completed,11,0.0
+TRP-00428,RT-026,Sialkot to Lahore,City Metro Bus,PES-6132,Hybrid,Sialkot,Lahore,2025-12-22,Weekday,06:10,09:28,184,198,14,31,49,63.27,185,5735,28.5,DRV-0076,Sunny,High,Completed,6,9.0
+TRP-00429,RT-084,Lahore to Peshawar,Blue Line Transit,MUL-1173,Standard,Lahore,Peshawar,2025-08-21,Weekday,16:35,02:06,531,571,40,20,38,52.63,565,11300,143.3,DRV-0050,Sunny,High,Completed,16,2.0
+TRP-00430,RT-005,Hyderabad to Karachi,Green Line Express,SGD-4172,Electric,Hyderabad,Karachi,2025-10-21,Weekday,08:50,12:45,214,235,21,38,51,74.51,220,8360,11.4,DRV-0016,Sunny,High,Completed,8,12.0
+TRP-00431,RT-038,Karachi to Lahore,Sindh Rapid Transit,MUL-3385,AC,Karachi,Lahore,2025-03-17,Weekday,19:20,14:39,1155,1159,4,19,49,38.78,1340,25460,406.1,DRV-0130,Sunny,Low,Completed,19,14.0
+TRP-00432,RT-005,Hyderabad to Karachi,Pak Urban Transport,QTA-4297,Hybrid,Hyderabad,Karachi,2025-02-05,Weekday,14:15,18:03,206,228,22,24,49,48.98,220,5280,35.9,DRV-0085,Cloudy,Moderate,Completed,14,18.0
+TRP-00433,RT-010,Peshawar to Rawalpindi,City Metro Bus,LEA-4654,AC,Peshawar,Rawalpindi,2025-12-21,Weekend,11:35,15:27,214,232,18,34,47,72.34,230,7820,61.2,DRV-0002,Sunny,Moderate,Completed,11,15.0
+TRP-00434,RT-031,Lahore to Faisalabad,Green Line Express,PES-4185,Standard,Lahore,Faisalabad,2025-11-20,Weekday,22:25,01:50,192,205,13,18,35,51.43,190,3420,34.5,DRV-0142,Sunny,Moderate,Completed,22,1.0
+TRP-00435,RT-033,Multan to Lahore,Capital Bus Service,LEA-3248,Hybrid,Multan,Lahore,2025-07-14,Weekday,07:25,13:25,344,360,16,37,44,84.09,390,14430,69.2,DRV-0160,Sunny,Moderate,Completed,7,13.0
+TRP-00436,RT-013,Lahore to Sialkot,Punjab Transit,KHI-9725,Mini Bus,Lahore,Sialkot,2025-07-13,Weekend,15:25,18:09,158,164,6,30,35,85.71,200,6000,20.6,DRV-0039,Sunny,Low,Completed,15,18.0
+TRP-00437,RT-005,Hyderabad to Karachi,Capital Bus Service,SGD-9327,Mini Bus,Hyderabad,Karachi,2025-10-27,Weekday,19:15,23:54,203,279,76,23,32,71.88,250,5750,30.1,DRV-0096,Rainy,High,Completed,19,23.0
+TRP-00438,RT-011,Rawalpindi to Peshawar,Sindh Rapid Transit,PES-9106,AC,Rawalpindi,Peshawar,2025-08-31,Weekend,12:45,16:46,227,241,14,52,58,89.66,245,12740,55.0,DRV-0079,Cloudy,Low,Completed,12,16.0
+TRP-00439,RT-026,Sialkot to Lahore,Sindh Rapid Transit,LEA-3200,Standard,Sialkot,Lahore,2025-02-13,Weekday,13:35,16:40,162,185,23,25,42,59.52,195,4875,36.4,DRV-0105,Cloudy,Moderate,Completed,13,16.0
+TRP-00440,RT-011,Rawalpindi to Peshawar,Blue Line Transit,PES-4830,Standard,Rawalpindi,Peshawar,2025-05-16,Weekday,06:25,10:14,200,229,29,18,44,40.91,230,4140,45.0,DRV-0093,Rainy,Moderate,Completed,6,10.0
+TRP-00441,RT-033,Multan to Lahore,Sindh Rapid Transit,QTA-5496,Standard,Multan,Lahore,2025-04-08,Weekday,08:55,15:14,358,379,21,33,43,76.74,445,14685,108.2,DRV-0168,Sunny,Moderate,Completed,8,15.0
+TRP-00442,RT-009,Faisalabad to Islamabad,Punjab Transit,KHI-4717,Mini Bus,Faisalabad,Islamabad,2025-04-18,Weekday,19:15,01:31,348,376,28,19,33,57.58,390,7410,54.9,DRV-0179,Rainy,Moderate,Completed,19,1.0
+TRP-00443,RT-011,Rawalpindi to Peshawar,City Metro Bus,MUL-3102,AC,Rawalpindi,Peshawar,2025-06-06,Weekday,04:35,08:23,205,228,23,25,51,49.02,250,6250,54.5,DRV-0151,Sunny,Moderate,Completed,4,8.0
+TRP-00444,RT-005,Hyderabad to Karachi,Punjab Transit,ISB-7404,Hybrid,Hyderabad,Karachi,2025-07-15,Weekday,10:30,14:46,242,256,14,31,47,65.96,220,6820,31.0,DRV-0078,Sunny,Low,Completed,10,14.0
+TRP-00445,RT-019,Faisalabad to Lahore,Punjab Transit,QTA-9005,Standard,Faisalabad,Lahore,2025-01-14,Weekday,09:15,12:38,191,203,12,18,47,38.3,210,3780,38.8,DRV-0133,Sunny,Moderate,Completed,9,12.0
+TRP-00446,RT-034,Multan to Quetta,Blue Line Transit,LEA-3115,AC,Multan,Quetta,2025-10-02,Weekday,17:35,04:48,590,673,83,22,52,42.31,605,13310,171.2,DRV-0148,Dust Storm,High,Delayed,17,4.0
+TRP-00447,RT-028,Rawalpindi to Sialkot,National Express PK,LEA-3337,Standard,Rawalpindi,Sialkot,2025-08-17,Weekend,06:30,12:00,292,330,38,34,42,80.95,295,10030,68.8,DRV-0074,Cloudy,High,Completed,6,12.0
+TRP-00448,RT-034,Multan to Quetta,Capital Bus Service,SGD-3869,AC,Multan,Quetta,2025-08-01,Weekday,11:10,21:12,571,602,31,29,53,54.72,605,17545,165.9,DRV-0012,Sunny,High,Completed,11,21.0
+TRP-00449,RT-012,Islamabad to Rawalpindi,Capital Bus Service,LEA-4559,Electric,Islamabad,Rawalpindi,2025-09-10,Weekday,17:40,18:40,50,60,10,28,51,54.9,85,2380,0.9,DRV-0043,Sunny,Low,Completed,17,18.0
+TRP-00450,RT-036,Faisalabad to Multan,City Metro Bus,QTA-8567,Standard,Faisalabad,Multan,2025-07-15,Weekday,14:55,20:18,294,323,29,28,41,68.29,305,8540,59.1,DRV-0119,Sunny,Low,Delayed,14,20.0
+TRP-00451,RT-031,Lahore to Faisalabad,Pak Urban Transport,PES-3297,Mini Bus,Lahore,Faisalabad,2025-08-30,Weekend,12:10,15:47,185,217,32,14,25,56.0,190,2660,22.5,DRV-0174,Cloudy,Low,Delayed,12,15.0
+TRP-00452,RT-011,Rawalpindi to Peshawar,Pak Urban Transport,QTA-9721,Mini Bus,Rawalpindi,Peshawar,2025-04-21,Weekday,18:55,23:38,251,283,32,20,35,57.14,250,5000,34.1,DRV-0154,Rainy,Moderate,Completed,18,23.0
+TRP-00453,RT-026,Sialkot to Lahore,Pak Urban Transport,KHI-4276,AC,Sialkot,Lahore,2025-02-16,Weekend,04:30,07:42,185,192,7,36,40,90.0,205,7380,40.0,DRV-0171,Sunny,Low,Completed,4,7.0
+TRP-00454,RT-012,Islamabad to Rawalpindi,Green Line Express,ISB-4105,Mini Bus,Islamabad,Rawalpindi,2025-11-16,Weekend,10:40,11:44,59,64,5,11,31,35.48,80,880,2.6,DRV-0168,Sunny,Low,Completed,10,11.0
+TRP-00455,RT-013,Lahore to Sialkot,Pak Urban Transport,SGD-5562,Standard,Lahore,Sialkot,2025-11-29,Weekend,15:00,18:33,183,213,30,38,41,92.68,190,7220,39.3,DRV-0146,Sunny,High,Completed,15,18.0
+TRP-00456,RT-019,Faisalabad to Lahore,Blue Line Transit,SGD-3177,Electric,Faisalabad,Lahore,2025-06-20,Weekday,09:50,13:58,158,248,90,27,50,54.0,185,4995,7.2,DRV-0164,Dust Storm,High,Delayed,9,13.0
+TRP-00457,RT-005,Hyderabad to Karachi,Green Line Express,QTA-8020,AC,Hyderabad,Karachi,2025-05-05,Weekday,06:00,09:58,237,238,1,26,55,47.27,225,5850,47.9,DRV-0154,Sunny,Low,Completed,6,9.0
+TRP-00458,RT-004,Quetta to Multan,Sindh Rapid Transit,SGD-1648,Electric,Quetta,Multan,2025-09-24,Weekday,17:50,03:48,581,598,17,15,40,37.5,620,9300,35.1,DRV-0171,Sunny,Moderate,Completed,17,3.0
+TRP-00459,RT-010,Peshawar to Rawalpindi,Punjab Transit,LEA-2058,AC,Peshawar,Rawalpindi,2025-09-09,Weekday,06:15,11:18,251,303,52,36,44,81.82,240,8640,61.1,DRV-0061,Foggy,Low,Completed,6,11.0
+TRP-00460,RT-026,Sialkot to Lahore,Capital Bus Service,KHI-5012,Standard,Sialkot,Lahore,2025-08-06,Weekday,09:45,13:06,174,201,27,36,44,81.82,205,7380,34.5,DRV-0093,Cloudy,High,Completed,9,13.0
+TRP-00461,RT-012,Islamabad to Rawalpindi,Blue Line Transit,QTA-8101,AC,Islamabad,Rawalpindi,2025-03-21,Weekday,19:00,20:50,59,110,51,33,53,62.26,80,2640,4.8,DRV-0045,Rainy,Moderate,Completed,19,20.0
+TRP-00462,RT-011,Rawalpindi to Peshawar,Capital Bus Service,MUL-8878,AC,Rawalpindi,Peshawar,2025-02-06,Weekday,14:10,,209,0,0,0,46,0.0,245,0,0.0,DRV-0129,Sunny,Low,Cancelled,14,
+TRP-00463,RT-034,Multan to Quetta,Blue Line Transit,QTA-7113,Hybrid,Multan,Quetta,2025-07-16,Weekday,19:20,05:35,603,615,12,30,37,81.08,630,18900,118.3,DRV-0042,Sunny,Low,Completed,19,5.0
+TRP-00464,RT-026,Sialkot to Lahore,Sindh Rapid Transit,PES-7032,AC,Sialkot,Lahore,2025-12-23,Weekday,05:50,,168,0,0,0,53,0.0,195,0,0.0,DRV-0093,Rainy,Moderate,Cancelled,5,
+TRP-00465,RT-069,Karachi to Islamabad,National Express PK,KHI-5166,Hybrid,Karachi,Islamabad,2025-05-07,Weekday,22:50,20:24,1282,1294,12,19,35,54.29,1560,29640,284.5,DRV-0151,Sunny,Low,Completed,22,20.0
+TRP-00466,RT-071,Hyderabad to Lahore,Blue Line Transit,PES-5143,Standard,Hyderabad,Lahore,2025-12-21,Weekend,13:40,07:22,1047,1062,15,39,47,82.98,1265,49335,375.7,DRV-0089,Cloudy,High,Completed,13,7.0
+TRP-00467,RT-042,Rawalpindi to Faisalabad,Blue Line Transit,LEA-3759,Mini Bus,Rawalpindi,Faisalabad,2025-09-09,Weekday,04:05,11:35,440,450,10,17,31,54.84,395,6715,50.5,DRV-0035,Cloudy,Moderate,Completed,4,11.0
+TRP-00468,RT-008,Rawalpindi to Islamabad,Green Line Express,SGD-4482,AC,Rawalpindi,Islamabad,2025-04-06,Weekend,10:00,11:41,52,101,49,22,46,47.83,85,1870,4.9,DRV-0021,Sunny,High,Completed,10,11.0
+TRP-00469,RT-013,Lahore to Sialkot,Green Line Express,MUL-4846,AC,Lahore,Sialkot,2025-09-02,Weekday,19:50,,152,0,0,0,40,0.0,210,0,0.0,DRV-0150,Sunny,High,Cancelled,19,
+TRP-00470,RT-038,Karachi to Lahore,City Metro Bus,MUL-5355,AC,Karachi,Lahore,2025-09-06,Weekend,19:25,15:08,1155,1183,28,39,50,78.0,1400,54600,389.6,DRV-0015,Sunny,High,Completed,19,15.0
+TRP-00471,RT-033,Multan to Lahore,Blue Line Transit,KHI-1420,Mini Bus,Multan,Lahore,2025-11-05,Weekday,07:40,14:58,397,438,41,16,28,57.14,390,6240,59.2,DRV-0049,Sunny,High,Completed,7,14.0
+TRP-00472,RT-009,Faisalabad to Islamabad,Sindh Rapid Transit,ISB-1749,Standard,Faisalabad,Islamabad,2025-06-16,Weekday,18:15,00:46,341,391,50,34,47,72.34,400,13600,93.3,DRV-0076,Rainy,Moderate,Completed,18,0.0
+TRP-00473,RT-046,Hyderabad to Islamabad,City Metro Bus,SGD-2426,Standard,Hyderabad,Islamabad,2025-06-04,Weekday,21:35,21:08,1380,1413,33,36,49,73.47,1520,54720,376.9,DRV-0169,Dust Storm,Moderate,Completed,21,21.0
+TRP-00474,RT-024,Peshawar to Lahore,City Metro Bus,ISB-7283,Standard,Peshawar,Lahore,2025-05-24,Weekend,11:55,23:10,598,675,77,27,50,54.0,635,17145,163.7,DRV-0058,Dust Storm,High,Completed,11,23.0
+TRP-00475,RT-013,Lahore to Sialkot,Blue Line Transit,QTA-7252,Hybrid,Lahore,Sialkot,2025-12-01,Weekday,21:30,00:43,150,193,43,30,42,71.43,195,5850,23.6,DRV-0030,Sunny,Moderate,Delayed,21,0.0
+TRP-00476,RT-061,Multan to Islamabad,City Metro Bus,MUL-9775,AC,Multan,Islamabad,2025-04-08,Weekday,16:30,05:14,682,764,82,28,51,54.9,660,18480,170.8,DRV-0138,Rainy,High,Delayed,16,5.0
+TRP-00477,RT-070,Islamabad to Multan,Capital Bus Service,PES-8467,Mini Bus,Islamabad,Multan,2025-03-17,Weekday,13:10,23:34,621,624,3,12,25,48.0,730,8760,98.7,DRV-0147,Cloudy,Low,Completed,13,23.0
+TRP-00478,RT-033,Multan to Lahore,Blue Line Transit,SGD-6458,Standard,Multan,Lahore,2025-03-20,Weekday,10:55,16:44,344,349,5,33,42,78.57,425,14025,92.2,DRV-0101,Cloudy,Low,Completed,10,16.0
+TRP-00479,RT-009,Faisalabad to Islamabad,Punjab Transit,MUL-7427,Hybrid,Faisalabad,Islamabad,2025-06-22,Weekend,17:50,00:10,352,380,28,36,46,78.26,400,14400,67.0,DRV-0141,Rainy,Low,Completed,17,0.0
+TRP-00480,RT-012,Islamabad to Rawalpindi,City Metro Bus,QTA-5981,Mini Bus,Islamabad,Rawalpindi,2025-08-23,Weekend,09:45,10:42,51,57,6,24,32,75.0,85,2040,2.6,DRV-0051,Cloudy,Low,Completed,9,10.0
+TRP-00481,RT-060,Multan to Karachi,Green Line Express,SGD-3418,Electric,Multan,Karachi,2025-07-12,Weekend,17:50,07:42,818,832,14,40,41,97.56,930,37200,50.4,DRV-0152,Sunny,High,Completed,17,7.0
+TRP-00482,RT-008,Rawalpindi to Islamabad,Blue Line Transit,LEA-4946,Standard,Rawalpindi,Islamabad,2025-07-23,Weekday,19:20,21:12,52,112,60,40,47,85.11,85,3400,4.7,DRV-0071,Rainy,High,Completed,19,21.0
+TRP-00483,RT-004,Quetta to Multan,Green Line Express,PES-9351,Standard,Quetta,Multan,2025-04-26,Weekend,04:45,15:11,612,626,14,37,50,74.0,665,24605,164.7,DRV-0112,Sunny,Moderate,Completed,4,15.0
+TRP-00484,RT-012,Islamabad to Rawalpindi,Green Line Express,SGD-9806,Mini Bus,Islamabad,Rawalpindi,2025-04-05,Weekend,16:55,18:01,47,66,19,19,31,61.29,80,1520,2.5,DRV-0150,Cloudy,Moderate,Completed,16,18.0
+TRP-00485,RT-017,Islamabad to Faisalabad,Pak Urban Transport,LEA-3960,Hybrid,Islamabad,Faisalabad,2025-11-03,Weekday,09:00,14:50,345,350,5,18,45,40.0,420,7560,63.3,DRV-0066,Sunny,Low,Completed,9,14.0
+TRP-00486,RT-007,Lahore to Karachi,Capital Bus Service,MUL-3811,AC,Lahore,Karachi,2025-08-05,Weekday,04:15,01:29,1232,1274,42,39,56,69.64,1310,51090,398.7,DRV-0134,Foggy,Moderate,Completed,4,1.0
+TRP-00487,RT-035,Hyderabad to Multan,Green Line Express,LEA-4884,Electric,Hyderabad,Multan,2025-01-19,Weekend,10:10,01:21,872,911,39,38,46,82.61,790,30020,42.4,DRV-0141,Dust Storm,Moderate,Completed,10,1.0
+TRP-00488,RT-026,Sialkot to Lahore,Punjab Transit,LEA-5164,AC,Sialkot,Lahore,2025-12-13,Weekend,17:55,21:30,179,215,36,39,46,84.78,205,7995,36.8,DRV-0166,Sunny,High,Completed,17,21.0
+TRP-00489,RT-022,Sialkot to Islamabad,Punjab Transit,SGD-8104,AC,Sialkot,Islamabad,2025-07-14,Weekday,04:45,10:29,342,344,2,25,48,52.08,325,8125,75.4,DRV-0023,Sunny,Low,Completed,4,10.0
+TRP-00490,RT-034,Multan to Quetta,Punjab Transit,KHI-5483,Mini Bus,Multan,Quetta,2025-01-06,Weekday,07:30,16:57,562,567,5,17,28,60.71,640,10880,98.0,DRV-0079,Sunny,Low,Completed,7,16.0
+TRP-00491,RT-081,Lahore to Quetta,Capital Bus Service,MUL-2623,AC,Lahore,Quetta,2025-01-25,Weekend,09:25,22:28,739,783,44,43,52,82.69,915,39345,286.8,DRV-0123,Sunny,High,Completed,9,22.0
+TRP-00492,RT-001,Karachi to Faisalabad,Punjab Transit,KHI-7206,Electric,Karachi,Faisalabad,2025-10-18,Weekend,12:00,04:52,941,1012,71,38,60,63.33,1130,42940,65.6,DRV-0120,Dust Storm,High,Completed,12,4.0
+TRP-00493,RT-015,Islamabad to Peshawar,Pak Urban Transport,SGD-2424,AC,Islamabad,Peshawar,2025-06-06,Weekday,17:25,21:23,221,238,17,23,60,38.33,260,5980,63.1,DRV-0074,Sunny,Moderate,Completed,17,21.0
+TRP-00494,RT-085,Karachi to Quetta,Blue Line Transit,QTA-3235,Electric,Karachi,Quetta,2025-09-03,Weekday,19:40,08:05,736,745,9,40,57,70.18,845,33800,44.8,DRV-0089,Cloudy,Moderate,Completed,19,8.0
+TRP-00495,RT-021,Islamabad to Sialkot,City Metro Bus,KHI-9577,Electric,Islamabad,Sialkot,2025-04-26,Weekend,09:05,15:03,331,358,27,27,44,61.36,305,8235,13.3,DRV-0174,Cloudy,High,Completed,9,15.0
+TRP-00496,RT-014,Multan to Faisalabad,Green Line Express,PES-5809,Standard,Multan,Faisalabad,2025-05-16,Weekday,10:00,14:50,270,290,20,29,47,61.7,285,8265,64.6,DRV-0010,Sunny,Low,Completed,10,14.0
+TRP-00497,RT-041,Sialkot to Quetta,City Metro Bus,ISB-5888,Electric,Sialkot,Quetta,2025-07-01,Weekday,07:00,22:12,906,912,6,18,45,40.0,940,16920,55.3,DRV-0132,Sunny,Low,Completed,7,22.0
+TRP-00498,RT-084,Lahore to Peshawar,City Metro Bus,QTA-5098,Standard,Lahore,Peshawar,2025-04-26,Weekend,19:30,05:15,582,585,3,45,46,97.83,610,27450,140.5,DRV-0113,Sunny,Low,Completed,19,5.0
+TRP-00499,RT-034,Multan to Quetta,City Metro Bus,SGD-4251,AC,Multan,Quetta,2025-02-26,Weekday,10:20,,693,0,0,0,52,0.0,680,0,0.0,DRV-0171,Sunny,Low,Cancelled,10,
+TRP-00500,RT-010,Peshawar to Rawalpindi,Capital Bus Service,PES-9119,Standard,Peshawar,Rawalpindi,2025-12-16,Weekday,08:25,12:19,208,234,26,19,47,40.43,230,4370,43.7,DRV-0028,Cloudy,High,Completed,8,12.0
+TRP-00501,RT-021,Islamabad to Sialkot,City Metro Bus,KHI-1852,Mini Bus,Islamabad,Sialkot,2025-12-14,Weekend,14:30,19:27,284,297,13,14,25,56.0,335,4690,45.2,DRV-0131,Sunny,Low,Completed,14,19.0
+TRP-00502,RT-015,Islamabad to Peshawar,Capital Bus Service,KHI-8031,Hybrid,Islamabad,Peshawar,2025-04-12,Weekend,19:55,00:02,224,247,23,20,38,52.63,265,5300,37.3,DRV-0010,Cloudy,Moderate,Completed,19,0.0
+TRP-00503,RT-006,Lahore to Multan,Blue Line Transit,KHI-2489,Standard,Lahore,Multan,2025-01-27,Weekday,16:30,23:25,375,415,40,17,42,40.48,405,6885,105.2,DRV-0094,Sunny,Moderate,Delayed,16,23.0
+TRP-00504,RT-034,Multan to Quetta,Pak Urban Transport,LEA-3977,AC,Multan,Quetta,2025-01-21,Weekday,04:00,14:12,600,612,12,22,50,44.0,685,15070,192.4,DRV-0126,Sunny,Moderate,Completed,4,14.0
+TRP-00505,RT-030,Peshawar to Islamabad,City Metro Bus,SGD-3134,Mini Bus,Peshawar,Islamabad,2025-06-19,Weekday,15:55,19:44,223,229,6,22,34,64.71,250,5500,34.9,DRV-0023,Cloudy,Low,Completed,15,19.0
+TRP-00506,RT-059,Islamabad to Lahore,Pak Urban Transport,PES-2616,Standard,Islamabad,Lahore,2025-02-08,Weekend,21:45,05:22,431,457,26,36,50,72.0,450,16200,96.9,DRV-0144,Dust Storm,Moderate,Completed,21,5.0
+TRP-00507,RT-004,Quetta to Multan,Green Line Express,LEA-8910,Hybrid,Quetta,Multan,2025-08-03,Weekend,20:40,06:53,584,613,29,36,40,90.0,695,25020,104.6,DRV-0102,Cloudy,Moderate,Delayed,20,6.0
+TRP-00508,RT-014,Multan to Faisalabad,Green Line Express,SGD-9344,Standard,Multan,Faisalabad,2025-07-16,Weekday,21:30,02:42,294,312,18,30,43,69.77,315,9450,62.3,DRV-0132,Sunny,Low,Completed,21,2.0
+TRP-00509,RT-021,Islamabad to Sialkot,Capital Bus Service,KHI-5855,AC,Islamabad,Sialkot,2025-12-29,Weekday,12:40,19:01,354,381,27,38,47,80.85,305,11590,81.2,DRV-0070,Sunny,Low,Delayed,12,19.0
+TRP-00510,RT-078,Rawalpindi to Karachi,Pak Urban Transport,LEA-6692,AC,Rawalpindi,Karachi,2025-11-20,Weekday,15:25,14:34,1380,1389,9,29,57,50.88,1630,47270,485.2,DRV-0015,Sunny,Low,Completed,15,14.0
+TRP-00511,RT-068,Karachi to Multan,Capital Bus Service,LEA-9804,Standard,Karachi,Multan,2025-12-03,Weekday,22:05,12:55,838,890,52,36,47,76.6,1060,38160,268.3,DRV-0057,Foggy,Moderate,Completed,22,12.0
+TRP-00512,RT-006,Lahore to Multan,Blue Line Transit,KHI-8109,Standard,Lahore,Multan,2025-07-08,Weekday,08:35,16:13,415,458,43,33,40,82.5,435,14355,105.9,DRV-0047,Sunny,High,Completed,8,16.0
+TRP-00513,RT-001,Karachi to Faisalabad,Punjab Transit,QTA-4077,Mini Bus,Karachi,Faisalabad,2025-02-05,Weekday,08:05,02:23,1040,1098,58,17,32,53.12,1120,19040,193.2,DRV-0006,Foggy,High,Delayed,8,2.0
+TRP-00514,RT-005,Hyderabad to Karachi,City Metro Bus,SGD-2369,Standard,Hyderabad,Karachi,2025-05-18,Weekend,08:50,13:06,209,256,47,16,35,45.71,225,3600,53.0,DRV-0145,Dust Storm,Low,Completed,8,13.0
+TRP-00515,RT-017,Islamabad to Faisalabad,Punjab Transit,MUL-5382,Standard,Islamabad,Faisalabad,2025-11-18,Weekday,21:05,03:49,391,404,13,15,36,41.67,425,6375,80.2,DRV-0058,Sunny,Low,Completed,21,3.0
+TRP-00516,RT-013,Lahore to Sialkot,Sindh Rapid Transit,KHI-7303,Electric,Lahore,Sialkot,2025-12-18,Weekday,07:35,11:04,178,209,31,22,43,51.16,200,4400,8.5,DRV-0093,Sunny,High,Completed,7,11.0
+TRP-00517,RT-038,Karachi to Lahore,Punjab Transit,ISB-3971,AC,Karachi,Lahore,2025-12-14,Weekend,17:10,11:37,1089,1107,18,43,49,87.76,1270,54610,403.5,DRV-0020,Cloudy,Moderate,Completed,17,11.0
+TRP-00518,RT-021,Islamabad to Sialkot,Blue Line Transit,SGD-8838,AC,Islamabad,Sialkot,2025-02-04,Weekday,07:45,13:48,325,363,38,24,48,50.0,345,8280,71.2,DRV-0109,Sunny,Low,Delayed,7,13.0
+TRP-00519,RT-026,Sialkot to Lahore,Sindh Rapid Transit,QTA-5028,Standard,Sialkot,Lahore,2025-07-16,Weekday,17:40,21:04,163,204,41,31,50,62.0,200,6200,34.1,DRV-0178,Cloudy,High,Completed,17,21.0
+TRP-00520,RT-080,Rawalpindi to Lahore,City Metro Bus,SGD-1281,Standard,Rawalpindi,Lahore,2025-07-05,Weekend,21:35,03:59,373,384,11,29,38,76.32,485,14065,118.4,DRV-0142,Sunny,Moderate,Completed,21,3.0
+TRP-00521,RT-010,Peshawar to Rawalpindi,Pak Urban Transport,KHI-2920,Standard,Peshawar,Rawalpindi,2025-12-23,Weekday,08:30,12:11,209,221,12,37,48,77.08,260,9620,48.5,DRV-0041,Sunny,Moderate,Completed,8,12.0
+TRP-00522,RT-004,Quetta to Multan,Pak Urban Transport,MUL-7823,Standard,Quetta,Multan,2025-03-18,Weekday,09:35,19:48,590,613,23,22,44,50.0,690,15180,174.2,DRV-0040,Sunny,Moderate,Completed,9,19.0
+TRP-00523,RT-017,Islamabad to Faisalabad,Punjab Transit,LEA-7494,AC,Islamabad,Faisalabad,2025-08-05,Weekday,18:40,00:49,334,369,35,40,48,83.33,385,15400,111.6,DRV-0134,Foggy,Moderate,Completed,18,0.0
+TRP-00524,RT-008,Rawalpindi to Islamabad,Blue Line Transit,KHI-7427,Electric,Rawalpindi,Islamabad,2025-04-05,Weekend,21:45,22:51,49,66,17,20,54,37.04,80,1600,0.9,DRV-0096,Sunny,Moderate,Completed,21,22.0
+TRP-00525,RT-042,Rawalpindi to Faisalabad,Green Line Express,SGD-6496,AC,Rawalpindi,Faisalabad,2025-01-15,Weekday,11:20,18:44,429,444,15,27,43,62.79,365,9855,89.3,DRV-0164,Sunny,Moderate,Completed,11,18.0
+TRP-00526,RT-042,Rawalpindi to Faisalabad,City Metro Bus,SGD-8926,AC,Rawalpindi,Faisalabad,2025-01-24,Weekday,05:25,12:54,437,449,12,29,49,59.18,355,10295,103.1,DRV-0081,Sunny,Low,Completed,5,12.0
+TRP-00527,RT-070,Islamabad to Multan,Green Line Express,QTA-9250,AC,Islamabad,Multan,2025-02-21,Weekday,20:10,09:11,733,781,48,20,52,38.46,665,13300,204.1,DRV-0161,Sunny,High,Delayed,20,9.0
+TRP-00528,RT-022,Sialkot to Islamabad,Pak Urban Transport,QTA-3307,Mini Bus,Sialkot,Islamabad,2025-03-24,Weekday,20:40,01:47,283,307,24,17,34,50.0,300,5100,43.2,DRV-0160,Cloudy,High,Completed,20,1.0
+TRP-00529,RT-075,Karachi to Peshawar,Blue Line Transit,MUL-2228,Standard,Karachi,Peshawar,2025-03-20,Weekday,22:50,22:42,1380,1432,52,28,38,73.68,1735,48580,485.6,DRV-0023,Rainy,Low,Completed,22,22.0
+TRP-00530,RT-011,Rawalpindi to Peshawar,Capital Bus Service,ISB-6952,Standard,Rawalpindi,Peshawar,2025-06-30,Weekday,06:05,10:25,241,260,19,40,49,81.63,235,9400,50.3,DRV-0146,Sunny,Moderate,Completed,6,10.0
+TRP-00531,RT-034,Multan to Quetta,Blue Line Transit,MUL-3113,AC,Multan,Quetta,2025-08-14,Weekday,15:40,01:28,577,588,11,33,50,66.0,695,22935,188.9,DRV-0165,Sunny,Moderate,Completed,15,1.0
+TRP-00532,RT-006,Lahore to Multan,City Metro Bus,LEA-5762,Standard,Lahore,Multan,2025-07-12,Weekend,09:45,16:46,386,421,35,26,37,70.27,405,10530,86.3,DRV-0120,Sunny,High,Completed,9,16.0
+TRP-00533,RT-008,Rawalpindi to Islamabad,Blue Line Transit,KHI-7578,Mini Bus,Rawalpindi,Islamabad,2025-06-18,Weekday,06:25,07:40,57,75,18,13,34,38.24,85,1105,2.4,DRV-0040,Sunny,Moderate,Completed,6,7.0
+TRP-00534,RT-012,Islamabad to Rawalpindi,City Metro Bus,SGD-7230,Hybrid,Islamabad,Rawalpindi,2025-02-01,Weekend,15:30,17:03,62,93,31,20,41,48.78,85,1700,3.1,DRV-0037,Sunny,High,Completed,15,17.0
+TRP-00535,RT-013,Lahore to Sialkot,National Express PK,MUL-4507,Mini Bus,Lahore,Sialkot,2025-12-09,Weekday,12:10,15:10,150,180,30,14,26,53.85,210,2940,24.7,DRV-0108,Foggy,Moderate,Completed,12,15.0
+TRP-00536,RT-014,Multan to Faisalabad,Punjab Transit,PES-6811,Hybrid,Multan,Faisalabad,2025-12-21,Weekend,22:30,03:12,264,282,18,22,41,53.66,320,7040,43.5,DRV-0038,Sunny,Moderate,Completed,22,3.0
+TRP-00537,RT-004,Quetta to Multan,Blue Line Transit,QTA-1060,Standard,Quetta,Multan,2025-08-19,Weekday,08:50,19:41,629,651,22,25,38,65.79,680,17000,156.9,DRV-0056,Sunny,Moderate,Completed,8,19.0
+TRP-00538,RT-006,Lahore to Multan,City Metro Bus,ISB-1265,AC,Lahore,Multan,2025-06-04,Weekday,13:40,20:06,352,386,34,23,43,53.49,420,9660,115.0,DRV-0139,Cloudy,High,Completed,13,20.0
+TRP-00539,RT-004,Quetta to Multan,Punjab Transit,ISB-3898,AC,Quetta,Multan,2025-10-11,Weekend,09:40,21:04,631,684,53,48,49,97.96,690,33120,205.4,DRV-0026,Rainy,Moderate,Completed,9,21.0
+TRP-00540,RT-026,Sialkot to Lahore,Blue Line Transit,QTA-9924,Standard,Sialkot,Lahore,2025-02-21,Weekday,18:40,22:00,159,200,41,19,36,52.78,205,3895,35.2,DRV-0051,Cloudy,High,Completed,18,22.0
+TRP-00541,RT-033,Multan to Lahore,National Express PK,SGD-7484,AC,Multan,Lahore,2025-01-04,Weekend,15:15,22:22,377,427,50,26,48,54.17,415,10790,118.0,DRV-0009,Foggy,Moderate,Completed,15,22.0
+TRP-00542,RT-008,Rawalpindi to Islamabad,Sindh Rapid Transit,MUL-8045,AC,Rawalpindi,Islamabad,2025-05-04,Weekend,21:30,23:04,53,94,41,28,59,47.46,80,2240,4.5,DRV-0045,Cloudy,High,Completed,21,23.0
+TRP-00543,RT-034,Multan to Quetta,Blue Line Transit,QTA-3069,Standard,Multan,Quetta,2025-09-16,Weekday,07:50,18:41,611,651,40,21,47,44.68,640,13440,152.4,DRV-0024,Rainy,Moderate,Completed,7,18.0
+TRP-00544,RT-005,Hyderabad to Karachi,Punjab Transit,QTA-9907,Standard,Hyderabad,Karachi,2025-02-10,Weekday,22:30,03:32,245,302,57,31,39,79.49,230,7130,44.3,DRV-0077,Dust Storm,High,Completed,22,3.0
+TRP-00545,RT-006,Lahore to Multan,Blue Line Transit,QTA-1847,Mini Bus,Lahore,Multan,2025-05-21,Weekday,06:10,13:26,367,436,69,17,35,48.57,390,6630,55.4,DRV-0047,Dust Storm,High,Delayed,6,13.0
+TRP-00546,RT-010,Peshawar to Rawalpindi,Pak Urban Transport,PES-1359,AC,Peshawar,Rawalpindi,2025-07-31,Weekday,06:35,10:23,198,228,30,32,42,76.19,260,8320,54.8,DRV-0047,Sunny,Moderate,Completed,6,10.0
+TRP-00547,RT-008,Rawalpindi to Islamabad,City Metro Bus,ISB-6681,Standard,Rawalpindi,Islamabad,2025-09-05,Weekday,21:00,,52,0,0,0,43,0.0,80,0,0.0,DRV-0006,Foggy,Low,Cancelled,21,
+TRP-00548,RT-012,Islamabad to Rawalpindi,Sindh Rapid Transit,KHI-1483,Standard,Islamabad,Rawalpindi,2025-06-17,Weekday,08:15,09:26,49,71,22,26,39,66.67,80,2080,4.0,DRV-0120,Sunny,Moderate,Completed,8,9.0
+TRP-00549,RT-079,Peshawar to Quetta,Blue Line Transit,ISB-3833,Hybrid,Peshawar,Quetta,2025-04-12,Weekend,12:30,08:46,1203,1216,13,40,44,90.91,1345,53800,247.8,DRV-0070,Sunny,Low,Completed,12,8.0
+TRP-00550,RT-013,Lahore to Sialkot,Blue Line Transit,ISB-7126,Standard,Lahore,Sialkot,2025-11-20,Weekday,06:35,10:38,178,243,65,19,36,52.78,185,3515,35.2,DRV-0008,Dust Storm,Moderate,Completed,6,10.0
+TRP-00551,RT-004,Quetta to Multan,Punjab Transit,LEA-4525,AC,Quetta,Multan,2025-12-03,Weekday,15:25,,675,0,0,0,50,0.0,695,0,0.0,DRV-0085,Sunny,Low,Cancelled,15,
+TRP-00552,RT-007,Lahore to Karachi,Pak Urban Transport,PES-5646,AC,Lahore,Karachi,2025-11-05,Weekday,10:40,08:05,1255,1285,30,45,57,78.95,1430,64350,393.7,DRV-0108,Sunny,High,Completed,10,8.0
+TRP-00553,RT-047,Multan to Peshawar,Pak Urban Transport,SGD-9092,Standard,Multan,Peshawar,2025-09-13,Weekend,05:20,18:16,757,776,19,16,38,42.11,785,12560,176.7,DRV-0148,Sunny,Moderate,Completed,5,18.0
+TRP-00554,RT-053,Quetta to Faisalabad,Blue Line Transit,MUL-9642,Standard,Quetta,Faisalabad,2025-01-21,Weekday,14:50,07:04,946,974,28,36,50,72.0,930,33480,203.8,DRV-0103,Sunny,High,Completed,14,7.0
+TRP-00555,RT-004,Quetta to Multan,City Metro Bus,QTA-8447,AC,Quetta,Multan,2025-09-10,Weekday,07:25,,567,0,0,0,43,0.0,700,0,0.0,DRV-0027,Sunny,Low,Cancelled,7,
+TRP-00556,RT-010,Peshawar to Rawalpindi,Pak Urban Transport,SGD-7043,Mini Bus,Peshawar,Rawalpindi,2025-10-03,Weekday,04:55,09:01,202,246,44,15,29,51.72,250,3750,32.2,DRV-0157,Foggy,Low,Delayed,4,9.0
+TRP-00557,RT-082,Faisalabad to Peshawar,Punjab Transit,LEA-3069,Electric,Faisalabad,Peshawar,2025-06-13,Weekday,08:45,16:34,450,469,19,31,53,58.49,530,16430,25.3,DRV-0126,Cloudy,Moderate,Completed,8,16.0
+TRP-00558,RT-034,Multan to Quetta,Capital Bus Service,QTA-2356,Mini Bus,Multan,Quetta,2025-06-30,Weekday,21:15,07:21,600,606,6,10,28,35.71,620,6200,96.3,DRV-0056,Cloudy,Low,Completed,21,7.0
+TRP-00559,RT-013,Lahore to Sialkot,Green Line Express,SGD-9644,AC,Lahore,Sialkot,2025-09-21,Weekend,14:20,17:09,154,169,15,40,60,66.67,185,7400,43.8,DRV-0159,Sunny,Moderate,Completed,14,17.0
+TRP-00560,RT-013,Lahore to Sialkot,Capital Bus Service,QTA-6032,AC,Lahore,Sialkot,2025-10-23,Weekday,07:10,10:20,164,190,26,25,43,58.14,190,4750,36.6,DRV-0136,Rainy,Moderate,Completed,7,10.0
+TRP-00561,RT-030,Peshawar to Islamabad,Green Line Express,KHI-3467,AC,Peshawar,Islamabad,2025-07-23,Weekday,20:30,01:10,240,280,40,18,41,43.9,280,5040,66.4,DRV-0049,Sunny,Low,Delayed,20,1.0
+TRP-00562,RT-038,Karachi to Lahore,National Express PK,LEA-1817,AC,Karachi,Lahore,2025-11-27,Weekday,11:05,08:47,1254,1302,48,19,41,46.34,1430,27170,444.8,DRV-0159,Foggy,High,Completed,11,8.0
+TRP-00563,RT-073,Peshawar to Sialkot,Pak Urban Transport,QTA-5395,Mini Bus,Peshawar,Sialkot,2025-09-11,Weekday,10:10,18:14,480,484,4,13,30,43.33,520,6760,82.7,DRV-0180,Cloudy,Moderate,Completed,10,18.0
+TRP-00564,RT-045,Faisalabad to Rawalpindi,Green Line Express,ISB-8458,Standard,Faisalabad,Rawalpindi,2025-03-14,Weekday,04:50,11:38,393,408,15,29,45,64.44,395,11455,90.2,DRV-0122,Sunny,High,Completed,4,11.0
+TRP-00565,RT-057,Quetta to Rawalpindi,City Metro Bus,MUL-5762,Mini Bus,Quetta,Rawalpindi,2025-04-27,Weekend,20:40,14:32,1038,1072,34,19,27,70.37,1045,19855,196.7,DRV-0140,Rainy,Low,Completed,20,14.0
+TRP-00566,RT-011,Rawalpindi to Peshawar,National Express PK,ISB-5933,Standard,Rawalpindi,Peshawar,2025-12-30,Weekday,14:40,18:11,206,211,5,42,50,84.0,230,9660,45.5,DRV-0057,Sunny,Moderate,Completed,14,18.0
+TRP-00567,RT-070,Islamabad to Multan,Pak Urban Transport,QTA-8056,AC,Islamabad,Multan,2025-07-04,Weekday,10:55,23:37,721,762,41,44,52,84.62,690,30360,197.9,DRV-0135,Cloudy,High,Completed,10,23.0
+TRP-00568,RT-017,Islamabad to Faisalabad,Sindh Rapid Transit,PES-5526,AC,Islamabad,Faisalabad,2025-06-08,Weekend,10:00,16:36,343,396,53,42,50,84.0,400,16800,93.0,DRV-0003,Rainy,Low,Completed,10,16.0
+TRP-00569,RT-017,Islamabad to Faisalabad,Punjab Transit,ISB-3664,AC,Islamabad,Faisalabad,2025-06-05,Weekday,19:20,02:05,387,405,18,20,49,40.82,420,8400,97.4,DRV-0126,Sunny,Low,Completed,19,2.0
+TRP-00570,RT-013,Lahore to Sialkot,City Metro Bus,KHI-6737,Standard,Lahore,Sialkot,2025-05-26,Weekday,20:50,00:17,145,207,62,32,39,82.05,185,5920,39.3,DRV-0075,Dust Storm,High,Completed,20,0.0
+TRP-00571,RT-010,Peshawar to Rawalpindi,Pak Urban Transport,QTA-7328,Mini Bus,Peshawar,Rawalpindi,2025-08-05,Weekday,16:05,19:36,201,211,10,22,29,75.86,260,5720,34.1,DRV-0036,Cloudy,Low,Completed,16,19.0
+TRP-00572,RT-042,Rawalpindi to Faisalabad,Pak Urban Transport,LEA-5871,AC,Rawalpindi,Faisalabad,2025-10-18,Weekend,18:40,02:10,426,450,24,37,53,69.81,400,14800,102.1,DRV-0108,Sunny,Moderate,Completed,18,2.0
+TRP-00573,RT-085,Karachi to Quetta,City Metro Bus,PES-2448,Hybrid,Karachi,Quetta,2025-03-13,Weekday,13:15,02:00,753,765,12,33,46,71.74,795,26235,127.2,DRV-0101,Sunny,Moderate,Completed,13,2.0
+TRP-00574,RT-017,Islamabad to Faisalabad,National Express PK,LEA-1896,Mini Bus,Islamabad,Faisalabad,2025-05-19,Weekday,07:25,13:22,342,357,15,20,29,68.97,390,7800,56.3,DRV-0014,Cloudy,Moderate,Completed,7,13.0
+TRP-00575,RT-044,Islamabad to Hyderabad,National Express PK,QTA-3535,Standard,Islamabad,Hyderabad,2025-06-04,Weekday,13:55,11:25,1273,1290,17,23,35,65.71,1520,34960,435.8,DRV-0031,Rainy,Moderate,Completed,13,11.0
+TRP-00576,RT-033,Multan to Lahore,National Express PK,MUL-8271,Standard,Multan,Lahore,2025-07-20,Weekend,05:05,12:49,395,464,69,43,50,86.0,420,18060,87.6,DRV-0158,Dust Storm,High,Completed,5,12.0
+TRP-00577,RT-008,Rawalpindi to Islamabad,Punjab Transit,QTA-4943,Standard,Rawalpindi,Islamabad,2025-03-29,Weekend,20:55,22:36,53,101,48,27,50,54.0,80,2160,4.5,DRV-0071,Sunny,Low,Delayed,20,22.0
+TRP-00578,RT-021,Islamabad to Sialkot,National Express PK,PES-3427,AC,Islamabad,Sialkot,2025-01-15,Weekday,13:35,19:48,354,373,19,30,52,57.69,300,9000,87.2,DRV-0091,Sunny,Low,Completed,13,19.0
+TRP-00579,RT-088,Quetta to Sialkot,Punjab Transit,SGD-9244,AC,Quetta,Sialkot,2025-04-18,Weekday,15:55,06:54,873,899,26,32,56,57.14,1010,32320,293.8,DRV-0036,Sunny,Moderate,Completed,15,6.0
+TRP-00580,RT-017,Islamabad to Faisalabad,Blue Line Transit,SGD-8925,Standard,Islamabad,Faisalabad,2025-07-12,Weekend,19:45,01:34,338,349,11,35,43,81.4,400,14000,97.6,DRV-0018,Sunny,Low,Completed,19,1.0
+TRP-00581,RT-022,Sialkot to Islamabad,Green Line Express,PES-8805,Electric,Sialkot,Islamabad,2025-06-15,Weekend,11:55,17:16,296,321,25,20,43,46.51,315,6300,15.7,DRV-0010,Foggy,Low,Completed,11,17.0
+TRP-00582,RT-086,Quetta to Lahore,City Metro Bus,ISB-2763,Hybrid,Quetta,Lahore,2025-12-24,Weekday,18:30,09:20,877,890,13,30,41,73.17,945,28350,160.5,DRV-0112,Sunny,Moderate,Completed,18,9.0
+TRP-00583,RT-027,Lahore to Rawalpindi,Green Line Express,SGD-3302,Standard,Lahore,Rawalpindi,2025-01-03,Weekday,15:30,23:00,404,450,46,22,37,59.46,480,10560,113.9,DRV-0054,Sunny,High,Completed,15,23.0
+TRP-00584,RT-058,Quetta to Hyderabad,Punjab Transit,PES-8004,Mini Bus,Quetta,Hyderabad,2025-11-17,Weekday,16:05,05:34,766,809,43,10,27,37.04,820,8200,140.2,DRV-0075,Rainy,Low,Delayed,16,5.0
+TRP-00585,RT-062,Peshawar to Faisalabad,Green Line Express,KHI-5719,Mini Bus,Peshawar,Faisalabad,2025-02-08,Weekend,21:45,06:55,518,550,32,27,33,81.82,560,15120,85.3,DRV-0068,Foggy,Moderate,Completed,21,6.0
+TRP-00586,RT-068,Karachi to Multan,Pak Urban Transport,SGD-1973,AC,Karachi,Multan,2025-03-13,Weekday,10:40,01:06,822,866,44,38,50,76.0,1065,40470,309.4,DRV-0145,Foggy,High,Completed,10,1.0
+TRP-00587,RT-060,Multan to Karachi,Blue Line Transit,MUL-2320,Electric,Multan,Karachi,2025-10-10,Weekday,19:10,10:52,922,942,20,24,41,58.54,1040,24960,57.0,DRV-0059,Sunny,Moderate,Completed,19,10.0
+TRP-00588,RT-016,Karachi to Hyderabad,Pak Urban Transport,SGD-7215,AC,Karachi,Hyderabad,2025-12-16,Weekday,04:40,09:10,216,270,54,21,52,40.38,245,5145,49.6,DRV-0031,Rainy,High,Completed,4,9.0
+TRP-00589,RT-018,Multan to Sialkot,Blue Line Transit,KHI-4801,Hybrid,Multan,Sialkot,2025-02-17,Weekday,22:00,07:22,544,562,18,14,36,38.89,580,8120,102.9,DRV-0113,Dust Storm,Low,Completed,22,7.0
+TRP-00590,RT-016,Karachi to Hyderabad,Pak Urban Transport,KHI-7517,Hybrid,Karachi,Hyderabad,2025-09-03,Weekday,07:50,12:29,241,279,38,30,43,69.77,220,6600,36.5,DRV-0094,Foggy,Moderate,Completed,7,12.0
+TRP-00591,RT-042,Rawalpindi to Faisalabad,Capital Bus Service,MUL-9248,AC,Rawalpindi,Faisalabad,2025-02-23,Weekend,05:25,11:35,354,370,16,37,59,62.71,355,13135,94.4,DRV-0054,Sunny,Low,Completed,5,11.0
+TRP-00592,RT-021,Islamabad to Sialkot,Punjab Transit,KHI-8213,Standard,Islamabad,Sialkot,2025-11-29,Weekend,18:05,00:15,365,370,5,23,36,63.89,335,7705,64.5,DRV-0127,Sunny,Moderate,Completed,18,0.0
+TRP-00593,RT-013,Lahore to Sialkot,City Metro Bus,PES-4021,Standard,Lahore,Sialkot,2025-12-04,Weekday,17:40,21:23,184,223,39,36,44,81.82,205,7380,38.8,DRV-0068,Sunny,High,Completed,17,21.0
+TRP-00594,RT-028,Rawalpindi to Sialkot,Sindh Rapid Transit,MUL-8111,Mini Bus,Rawalpindi,Sialkot,2025-08-07,Weekday,05:05,10:41,295,336,41,25,35,71.43,305,7625,37.3,DRV-0133,Sunny,High,Completed,5,10.0
+TRP-00595,RT-013,Lahore to Sialkot,Pak Urban Transport,LEA-5598,Standard,Lahore,Sialkot,2025-12-16,Weekday,12:05,14:47,144,162,18,30,44,68.18,190,5700,36.9,DRV-0168,Sunny,Moderate,Completed,12,14.0
+TRP-00596,RT-066,Sialkot to Karachi,Sindh Rapid Transit,SGD-3929,Mini Bus,Sialkot,Karachi,2025-08-16,Weekend,18:00,16:17,1314,1337,23,22,32,68.75,1575,34650,253.3,DRV-0021,Sunny,Moderate,Completed,18,16.0
+TRP-00597,RT-007,Lahore to Karachi,Green Line Express,ISB-5524,AC,Lahore,Karachi,2025-05-13,Weekday,19:10,16:51,1252,1301,49,20,45,44.44,1285,25700,409.9,DRV-0130,Sunny,High,Delayed,19,16.0
+TRP-00598,RT-048,Sialkot to Multan,Pak Urban Transport,QTA-5244,Standard,Sialkot,Multan,2025-05-12,Weekday,04:50,12:47,474,477,3,18,46,39.13,550,9900,141.0,DRV-0114,Cloudy,Low,Completed,4,12.0
+TRP-00599,RT-031,Lahore to Faisalabad,Sindh Rapid Transit,SGD-7815,AC,Lahore,Faisalabad,2025-02-06,Weekday,17:20,20:54,186,214,28,29,50,58.0,190,5510,45.4,DRV-0076,Cloudy,Moderate,Completed,17,20.0
+TRP-00600,RT-070,Islamabad to Multan,Punjab Transit,LEA-2740,Hybrid,Islamabad,Multan,2025-11-08,Weekend,10:25,21:44,653,679,26,40,46,86.96,690,27600,134.6,DRV-0020,Foggy,Low,Completed,10,21.0
+TRP-00601,RT-025,Hyderabad to Rawalpindi,Blue Line Transit,LEA-9646,AC,Hyderabad,Rawalpindi,2025-01-27,Weekday,19:50,18:57,1380,1387,7,28,54,51.85,1530,42840,484.2,DRV-0093,Sunny,Low,Completed,19,18.0
+TRP-00602,RT-034,Multan to Quetta,Green Line Express,PES-7716,Mini Bus,Multan,Quetta,2025-07-05,Weekend,06:25,17:36,613,671,58,17,26,65.38,700,11900,93.3,DRV-0033,Foggy,Moderate,Completed,6,17.0
+TRP-00603,RT-010,Peshawar to Rawalpindi,Punjab Transit,SGD-5700,Electric,Peshawar,Rawalpindi,2025-06-24,Weekday,14:05,18:19,248,254,6,42,53,79.25,260,10920,10.9,DRV-0117,Cloudy,Low,Completed,14,18.0
+TRP-00604,RT-031,Lahore to Faisalabad,National Express PK,KHI-1558,Mini Bus,Lahore,Faisalabad,2025-08-09,Weekend,04:55,08:34,185,219,34,15,26,57.69,185,2775,22.8,DRV-0062,Sunny,High,Completed,4,8.0
+TRP-00605,RT-033,Multan to Lahore,Sindh Rapid Transit,MUL-2765,Electric,Multan,Lahore,2025-01-24,Weekday,06:55,13:37,345,402,57,38,54,70.37,435,16530,18.7,DRV-0047,Foggy,High,Completed,6,13.0
+TRP-00606,RT-067,Sialkot to Hyderabad,City Metro Bus,ISB-8430,Electric,Sialkot,Hyderabad,2025-07-14,Weekday,14:35,13:39,1361,1384,23,22,58,37.93,1450,31900,76.9,DRV-0133,Sunny,Moderate,Completed,14,13.0
+TRP-00607,RT-077,Hyderabad to Sialkot,Blue Line Transit,PES-6219,Standard,Hyderabad,Sialkot,2025-04-02,Weekday,08:00,03:59,1189,1199,10,16,41,39.02,1460,23360,331.8,DRV-0073,Sunny,Low,Completed,8,3.0
+TRP-00608,RT-030,Peshawar to Islamabad,National Express PK,KHI-5726,Standard,Peshawar,Islamabad,2025-05-13,Weekday,07:15,11:14,231,239,8,25,39,64.1,275,6875,59.2,DRV-0011,Sunny,Moderate,Completed,7,11.0
+TRP-00609,RT-067,Sialkot to Hyderabad,City Metro Bus,SGD-1422,AC,Sialkot,Hyderabad,2025-07-09,Weekday,10:20,06:18,1159,1198,39,41,58,70.69,1540,63140,452.4,DRV-0031,Sunny,Moderate,Delayed,10,6.0
+TRP-00610,RT-013,Lahore to Sialkot,Green Line Express,ISB-2908,Mini Bus,Lahore,Sialkot,2025-07-01,Weekday,06:55,09:57,151,182,31,18,26,69.23,185,3330,24.5,DRV-0019,Sunny,Moderate,Completed,6,9.0
+TRP-00611,RT-060,Multan to Karachi,Sindh Rapid Transit,MUL-1583,Standard,Multan,Karachi,2025-11-21,Weekday,04:15,20:45,951,990,39,36,47,76.6,935,33660,228.2,DRV-0128,Foggy,Moderate,Completed,4,20.0
+TRP-00612,RT-006,Lahore to Multan,Green Line Express,SGD-4509,Hybrid,Lahore,Multan,2025-01-02,Weekday,17:05,23:42,378,397,19,22,41,53.66,410,9020,69.5,DRV-0150,Cloudy,Low,Completed,17,23.0
+TRP-00613,RT-004,Quetta to Multan,Punjab Transit,SGD-4799,Mini Bus,Quetta,Multan,2025-05-30,Weekday,19:35,05:29,583,594,11,26,31,83.87,680,17680,107.9,DRV-0074,Cloudy,Moderate,Completed,19,5.0
+TRP-00614,RT-011,Rawalpindi to Peshawar,Blue Line Transit,PES-6224,Standard,Rawalpindi,Peshawar,2025-12-05,Weekday,07:25,11:48,210,263,53,27,39,69.23,240,6480,46.1,DRV-0008,Rainy,Moderate,Completed,7,11.0
+TRP-00615,RT-036,Faisalabad to Multan,Blue Line Transit,SGD-6295,Standard,Faisalabad,Multan,2025-05-14,Weekday,14:30,20:02,295,332,37,25,49,51.02,320,8000,62.0,DRV-0012,Sunny,Low,Delayed,14,20.0
+TRP-00616,RT-013,Lahore to Sialkot,Punjab Transit,SGD-2807,AC,Lahore,Sialkot,2025-11-11,Weekday,14:10,17:24,158,194,36,29,40,72.5,195,5655,37.6,DRV-0142,Dust Storm,Low,Completed,14,17.0
+TRP-00617,RT-005,Hyderabad to Karachi,Sindh Rapid Transit,KHI-9776,AC,Hyderabad,Karachi,2025-07-22,Weekday,11:20,14:42,199,202,3,39,51,76.47,250,9750,56.7,DRV-0135,Sunny,Moderate,Completed,11,14.0
+TRP-00618,RT-026,Sialkot to Lahore,City Metro Bus,ISB-1397,Standard,Sialkot,Lahore,2025-04-28,Weekday,11:00,14:17,173,197,24,15,38,39.47,185,2775,32.2,DRV-0107,Rainy,Moderate,Completed,11,14.0
+TRP-00619,RT-021,Islamabad to Sialkot,Punjab Transit,MUL-7408,Standard,Islamabad,Sialkot,2025-04-10,Weekday,13:25,19:52,325,387,62,19,35,54.29,330,6270,73.0,DRV-0110,Sunny,Moderate,Delayed,13,19.0
+TRP-00620,RT-026,Sialkot to Lahore,National Express PK,QTA-9736,Standard,Sialkot,Lahore,2025-09-17,Weekday,11:30,15:20,186,230,44,32,50,64.0,190,6080,39.8,DRV-0007,Rainy,High,Completed,11,15.0
